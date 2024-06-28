@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/.bin" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/didyoumean" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/cssesc" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/eastasianwidth" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/dlv" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/color-name" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/color-convert" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/cross-spawn" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/commander" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/function-bind" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/foreground-child" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/glob-parent" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/glob" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/fast-glob" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/emoji-regex" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/fill-range" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/fastq" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/ansi-regex" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@pkgjs" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/any-promise" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/ansi-styles" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@isaacs" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@alloc" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@nodelib" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@jridgewell" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/braces" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/brace-expansion" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/chokidar" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/camelcase-css" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/arg" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/anymatch" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/binary-extensions" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/balanced-match" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/object-hash" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/object-assign" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/path-key" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/package-json-from-dist" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/mz" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/minipass" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/normalize-path" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/nanoid" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/pirates" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/pify" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-import" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/path-scurry" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/path-parse" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/picomatch" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/picocolors" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-glob" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-fullwidth-code-point" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/isexe" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-number" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-binary-path" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/hasown" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-extglob" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/is-core-module" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/merge2" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/lru-cache" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/minimatch" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/micromatch" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/jiti" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/jackspeak" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/lines-and-columns" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/lilconfig" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/tailwindcss" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/supports-preserve-symlinks-flag" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/thenify-all" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/thenify" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/strip-ansi" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/string-width-cjs" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/sucrase" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/strip-ansi-cjs" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/wrap-ansi-cjs" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/wrap-ansi" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/yaml" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/ts-interface-checker" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/to-regex-range" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/which" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/util-deprecate" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/queue-microtask" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-value-parser" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/readdirp" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/read-cache" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-load-config" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-js" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-selector-parser" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-nested" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/signal-exit" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/shebang-regex" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/string-width" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/source-map-js" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/reusify" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/resolve" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/shebang-command" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/run-parallel" />
+      <path value="$PROJECT_DIR$/../../../../wp" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/normalize-range" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/escalade" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/update-browserslist-db" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/browserslist" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/autoprefixer" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/caniuse-lite" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/electron-to-chromium" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/node-releases" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/fraction.js" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/escape-string-regexp" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-nested-ancestors" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/postcss-resolve-nested-selector" />
+      <path value="$PROJECT_DIR$/vendor/node_modules/@tailwindcss" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2iNxMcIIIErFViF25BdONOcrj6H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.9&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/razm/Local Sites/wpdev/app/wp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.tailwind:watch (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.tailwind:watch.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.13438967&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\vendor" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\css\components" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\css" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tailwind:watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vendor/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="tailwind:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.tailwind:watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\Users\razm\Local Sites\wpdev\app\wp</wordpressPath>
+  </component>
+</project>

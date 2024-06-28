@@ -1,0 +1,14 @@
+{
+    "name": "razm/phoenix",
+    "authors": [
+        {
+            "name": "razmjoui",
+            "email": "alirezarazmjoui@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Razm\\": "./inc"
+        }
+    }
+}

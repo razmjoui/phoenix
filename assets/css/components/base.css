@@ -1,0 +1,173 @@
+@layer base {
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    :root {
+
+        /* Light Mode Colors */
+        --primary: #3498db;
+        --secondary: #e74c3c;
+        --bg: #F3F4F6;
+        --header: #2c3e50;
+        --headerHover: #2c3e50;
+        --text: #2c3e50;
+        --texthover: #2c3e50;
+        --paragraph: #7f8c8d;
+        --link: #3498db;
+        --linkHover: #2980b9;
+        --list: #34495e;
+        --inputBg: #34495e;
+        --inputText: #34495e;
+        --buttonBg: #3498db;
+        --buttonText: #ffffff;
+        --label: #2c3e50;
+        --selectBg: #eceeef;
+        --selectText: #2c3e50;
+        --success: #27ae60;
+        --warning: #f39c12;
+        --danger: #e74c3c;
+        --gradientStart: #6dd5ed;
+        --gradientEnd: #2193b0;
+
+
+        /* Dark Mode Colors */
+        --primaryD: #3498db;
+        --secondaryD: #e74c3c;
+        --bgD: #0E2338;
+        --headerD: #ffff;
+        --headerHoverD: #ffff;
+        --textD: #ffffff;
+        --texthoverD: #ffff;
+        --paragraphD: #ffff;
+        --linkD: #ffff;
+        --linkHoverD: #ffff;
+        --listD: #ffff;
+        --inputBgD: #1b314c;
+        --inputTextD: #ffff;
+        --buttonBgD: #ffff;
+        --buttonTextD: #ffff;
+        --labelD: #ffff;
+        --selectBgD: #1b314c;
+        --selectTextD: #ffffff;
+        --successD: #ffff;
+        --warningD: #ffff;
+        --dangerD: #ffff;
+        --gradientStartD: #ffff;
+        --gradientEndD: #ffff;
+
+
+        /* Font Families */
+        --fontBody: 'IranSans';
+        --fontHead: 'IranSans';
+        --fontText: 'IranSans';
+        --fontLink: 'IranSans';
+        --fontList: 'IranSans';
+        --fontSelect: 'IranSans';
+        --fontLabel: 'IranSans';
+        --fontBtn: 'IranSans';
+
+
+        --light: 243, 244, 246;
+        --dark: 14, 35, 56;
+
+
+        --dark50: 246, 247, 248;
+        --dark100: 231, 231, 233;
+        --dark200: 208, 207, 212;
+        --dark400: 137, 135, 147;
+        --dark450: 83, 100, 121;
+        --dark500: 66, 63, 81;
+        --dark550: 100, 116, 139;
+        --dark650: 91, 102, 118;
+        --dark660: 74, 74, 74;
+        --dark700: 19, 15, 38;
+        --dark750: 81, 93, 110;
+        --dark800: 57, 55, 55;
+        --dark890: 14, 35, 56;
+        --dark900: 6, 27, 51;
+        --dark910: 12, 36, 63;
+        --dark920: 27, 49, 76;
+        --dark930: 27, 52, 77;
+        --dark940: 27, 52, 76;
+        --dark950: 15, 30, 47;
+
+        --biscay100: 235, 236, 238;
+        --biscay650: 131, 144, 162;
+        --biscay700: 51, 65, 85;
+        --biscay500: 92, 103, 119;
+        --biscay50: 249, 249, 250;
+        --biscay400: 153, 160, 170;
+        --biscay300: 194, 198, 204;
+
+
+    }
+
+
+    body {
+        @apply font-body font-normal bg-bg dark:bg-bgD overflow-x-hidden text-text dark:text-textD leading-normal rtl:text-right ltr:text-left;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-head font-bold text-header dark:text-headerD hover:text-headerHover dark:hover:text-headerHoverD;
+    }
+
+/*    h1 {
+        @apply text-5xl;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h3 {
+        @apply text-3xl;
+    }
+
+    h4 {
+        @apply text-2xl;
+    }
+
+    h5 {
+        @apply text-xl;
+    }
+
+    h6 {
+        @apply text-lg;
+    }*/
+
+
+    a {
+        @apply font-link transition-all duration-200;
+    }
+
+    p {
+        @apply font-text ;
+    }
+
+    span {
+        @apply font-text;
+    }
+
+    button {
+        @apply font-btn;
+    }
+
+    select {
+        @apply font-select;
+    }
+
+    input {
+        @apply font-select ;
+    }
+
+    ul, li, ol {
+        @apply font-list transition-all duration-200;
+    }
+
+    /**, *::after, *::before {
+        @apply outline-none box-border;
+    }*/
+
+}

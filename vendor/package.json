@@ -1,0 +1,28 @@
+{
+  "name": "phoenix",
+  "version": "1.0.0",
+  "description": "A professional WordPress theme development project",
+  "author": "Alireza Razmjoui",
+  "license": "GNU",
+  "homepage": "https://razmnix.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alirezarazmjoui/phoenix.git"
+  },
+  "text_domain": "razmnix",
+  "scripts": {
+    "tailwind:build": "tailwindcss --postcss -i ../assets/css/input.css -o ../assets/css/app.css --minify",
+    "tailwind:watch": "tailwindcss --postcss -i ../assets/css/input.css -o ../assets/css/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-nested-ancestors": "^3.0.0"
+  }
+}

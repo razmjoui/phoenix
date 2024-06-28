@@ -1,0 +1,1513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: phoenix\n"
+"POT-Creation-Date: 2024-02-08 22:04+0330\n"
+"PO-Revision-Date: 2024-02-08 22:08+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: header.php:94 inc/elementor/widgets/widget-search.php:38
+msgid "what are you looking for?"
+msgstr "دنبال چی میگردی؟"
+
+#: header.php:129
+msgid "Be in touch with us"
+msgstr "با ما در ارتباط باشید"
+
+#: inc/classes/Razmnix_Megamenu.php:50
+msgid "Mega menu settings"
+msgstr "تنظیمات مگا منو"
+
+#: inc/classes/Razmnix_Megamenu.php:52
+msgid "Activate mega menu"
+msgstr "فعال کردن مگا منو"
+
+#: inc/classes/Razmnix_Megamenu.php:59
+msgid "Select mega menu"
+msgstr "انتخاب مگا منو"
+
+#: inc/classes/Razmnix_Megamenu.php:79
+msgid "Mega menu full width"
+msgstr "مگا منو با عرض کامل"
+
+#: inc/codestar/classes/admin-options.class.php:230
+msgid "Error while saving the changes."
+msgstr "خطا هنگام ذخیره تغییرات."
+
+#: inc/codestar/classes/admin-options.class.php:290
+msgid "Settings successfully imported."
+msgstr "تنظیمات با موفقیت وارد شد."
+
+#: inc/codestar/classes/admin-options.class.php:302
+#: inc/codestar/classes/admin-options.class.php:318
+msgid "Default settings restored."
+msgstr "تنظیمات پیش فرض بازیابی شد."
+
+#: inc/codestar/classes/admin-options.class.php:389
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: inc/codestar/classes/admin-options.class.php:570
+msgid "You have unsaved changes, save your changes!"
+msgstr "شما تغییرات ذخیره نشده ای دارید، تغییرات خود را ذخیره کنید!"
+
+#: inc/codestar/classes/admin-options.class.php:572
+msgid "show all settings"
+msgstr "نمایش تمام تنظیمات"
+
+#: inc/codestar/classes/admin-options.class.php:574
+#: inc/codestar/fields/icon/icon.php:57 inc/codestar/fields/map/map.php:23
+msgid "Search..."
+msgstr "جستجو کردن..."
+
+#: inc/codestar/classes/admin-options.class.php:577
+#: inc/codestar/classes/admin-options.class.php:700
+msgid "Save"
+msgstr "ذخیره"
+
+#: inc/codestar/classes/admin-options.class.php:577
+#: inc/codestar/classes/admin-options.class.php:700
+msgid "Saving..."
+msgstr "در حال ذخیره..."
+
+#: inc/codestar/classes/admin-options.class.php:578
+#: inc/codestar/classes/admin-options.class.php:701
+msgid "Reset Section"
+msgstr "بازنشانی بخش"
+
+#: inc/codestar/classes/admin-options.class.php:578
+#: inc/codestar/classes/admin-options.class.php:701
+msgid "Are you sure to reset this section options?"
+msgstr "آیا مطمئن هستید که گزینه های این بخش را بازنشانی می کنید؟"
+
+#: inc/codestar/classes/admin-options.class.php:579
+#: inc/codestar/classes/admin-options.class.php:702
+msgid "Reset All"
+msgstr "بازنشانی کل تنظیمات"
+
+#: inc/codestar/classes/admin-options.class.php:579
+#: inc/codestar/classes/admin-options.class.php:702
+#: inc/codestar/classes/comment-options.class.php:216
+#: inc/codestar/classes/metabox-options.class.php:294
+#: inc/codestar/fields/backup/backup.php:31
+msgid "Reset"
+msgstr "بازنشانی کنید"
+
+#: inc/codestar/classes/admin-options.class.php:579
+#: inc/codestar/classes/admin-options.class.php:702
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+"آیا مطمئن هستید که می خواهید همه تنظیمات را به مقادیر پیش فرض بازنشانی کنید؟"
+
+#: inc/codestar/classes/admin-options.class.php:677
+#: inc/codestar/classes/comment-options.class.php:199
+#: inc/codestar/classes/metabox-options.class.php:277
+#: inc/codestar/fields/button_set/button_set.php:56
+#: inc/codestar/fields/checkbox/checkbox.php:76
+#: inc/codestar/fields/radio/radio.php:75
+#: inc/codestar/fields/select/select.php:113
+#: inc/codestar/functions/actions.php:41
+msgid "No data available."
+msgstr "اطلاعاتی موجود نیست."
+
+#: inc/codestar/classes/comment-options.class.php:217
+#: inc/codestar/classes/metabox-options.class.php:295
+msgid "update post"
+msgstr "به روز رسانی پست"
+
+#: inc/codestar/classes/comment-options.class.php:217
+#: inc/codestar/classes/metabox-options.class.php:295
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#: inc/codestar/classes/setup.class.php:614
+msgid "Are you sure?"
+msgstr "مطمئنی؟"
+
+#: inc/codestar/classes/setup.class.php:615
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr "لطفا %s یا بیشتر نویسه را وارد کنید"
+
+#: inc/codestar/classes/setup.class.php:616
+msgid "Searching..."
+msgstr "جستجوکردن..."
+
+#: inc/codestar/classes/setup.class.php:617
+msgid "No results found."
+msgstr "نتیجه ای پیدا نشد."
+
+#: inc/codestar/classes/setup.class.php:718
+msgid "Oops! Not allowed."
+msgstr "اوه! مجاز نیست."
+
+#: inc/codestar/classes/setup.class.php:786
+#: inc/codestar/classes/setup.class.php:790
+msgid "Field not found!"
+msgstr "فیلد پیدا نشد!"
+
+#: inc/codestar/classes/shortcode-options.class.php:255
+#: inc/codestar/fields/group/group.php:23
+msgid "Add New"
+msgstr "جدید اضافه کن"
+
+#: inc/codestar/classes/shortcode-options.class.php:292
+#: inc/codestar/functions/actions.php:16 inc/codestar/functions/actions.php:68
+#: inc/codestar/functions/actions.php:106
+#: inc/codestar/functions/actions.php:141
+#: inc/codestar/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr "خطا: تأیید غیر معتبر نامعتبر است."
+
+#: inc/codestar/fields/background/background.php:36
+#: inc/codestar/fields/media/media.php:59
+msgid "Not selected"
+msgstr "انتخاب نشده"
+
+#: inc/codestar/fields/background/background.php:72
+#: inc/codestar/fields/date/date.php:31
+#: inc/codestar/fields/datetime/datetime.php:36
+msgid "From"
+msgstr "از"
+
+#: inc/codestar/fields/background/background.php:90
+#: inc/codestar/fields/date/date.php:32
+#: inc/codestar/fields/datetime/datetime.php:37
+msgid "To"
+msgstr "به"
+
+#: inc/codestar/fields/background/background.php:108
+msgid "Direction"
+msgstr "جهت"
+
+#: inc/codestar/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr "جهت گرادیان"
+
+#: inc/codestar/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr "&#8659; بالا به پایین"
+
+#: inc/codestar/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr "&#8658; چپ به راست"
+
+#: inc/codestar/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr "&#8664; گوشه بالا به راست"
+
+#: inc/codestar/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr "&#8665; گوشه بالا به چپ"
+
+#: inc/codestar/fields/background/background.php:161
+msgid "Background Position"
+msgstr "موقعیت پس زمینه"
+
+#: inc/codestar/fields/background/background.php:162
+msgid "Left Top"
+msgstr "بالا سمت چپ"
+
+#: inc/codestar/fields/background/background.php:163
+msgid "Left Center"
+msgstr "مرکز چپ"
+
+#: inc/codestar/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr "سمت چپ پایین"
+
+#: inc/codestar/fields/background/background.php:165
+msgid "Center Top"
+msgstr "مرکز بالا"
+
+#: inc/codestar/fields/background/background.php:166
+msgid "Center Center"
+msgstr "مرکز مرکز"
+
+#: inc/codestar/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr "مرکز پایین"
+
+#: inc/codestar/fields/background/background.php:168
+msgid "Right Top"
+msgstr "بالا سمت راست"
+
+#: inc/codestar/fields/background/background.php:169
+msgid "Right Center"
+msgstr "مرکز راست"
+
+#: inc/codestar/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr "پایین سمت راست"
+
+#: inc/codestar/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr "پس زمینه تکرار کنید"
+
+#: inc/codestar/fields/background/background.php:185
+msgid "Repeat"
+msgstr "تکرار"
+
+#: inc/codestar/fields/background/background.php:186
+msgid "No Repeat"
+msgstr "بدون تکرار"
+
+#: inc/codestar/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr "به صورت افقی تکرار کنید"
+
+#: inc/codestar/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr "به صورت عمودی تکرار کنید"
+
+#: inc/codestar/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr "پیوست پس زمینه"
+
+#: inc/codestar/fields/background/background.php:203
+msgid "Scroll"
+msgstr "پیمایش"
+
+#: inc/codestar/fields/background/background.php:204
+msgid "Fixed"
+msgstr "ثابت"
+
+#: inc/codestar/fields/background/background.php:218
+msgid "Background Size"
+msgstr "اندازه پس زمینه"
+
+#: inc/codestar/fields/background/background.php:219
+msgid "Cover"
+msgstr "پوشش"
+
+#: inc/codestar/fields/background/background.php:220
+msgid "Contain"
+msgstr "حاوی"
+
+#: inc/codestar/fields/background/background.php:221
+msgid "Auto"
+msgstr "خودکار"
+
+#: inc/codestar/fields/background/background.php:235
+msgid "Background Origin"
+msgstr "مبدا پس زمینه"
+
+#: inc/codestar/fields/background/background.php:236
+#: inc/codestar/fields/background/background.php:254
+msgid "Padding Box"
+msgstr "فاصله از داخل باکس"
+
+#: inc/codestar/fields/background/background.php:237
+#: inc/codestar/fields/background/background.php:253
+msgid "Border Box"
+msgstr "کادر دور باکس"
+
+#: inc/codestar/fields/background/background.php:238
+#: inc/codestar/fields/background/background.php:255
+msgid "Content Box"
+msgstr "محتوا باکس"
+
+#: inc/codestar/fields/background/background.php:252
+msgid "Background Clip"
+msgstr "پس زمینه"
+
+#: inc/codestar/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr "ترکیب پس زمینه"
+
+#: inc/codestar/fields/background/background.php:270
+#: inc/codestar/fields/link_color/link_color.php:36
+#: inc/codestar/fields/typography/typography.php:186
+msgid "Normal"
+msgstr "طبیعی"
+
+#: inc/codestar/fields/background/background.php:271
+msgid "Multiply"
+msgstr "تکثیر کردن"
+
+#: inc/codestar/fields/background/background.php:272
+msgid "Screen"
+msgstr "صفحه نمایش"
+
+#: inc/codestar/fields/background/background.php:273
+msgid "Overlay"
+msgstr "همپوشانی"
+
+#: inc/codestar/fields/background/background.php:274
+msgid "Darken"
+msgstr "تاریک کردن"
+
+#: inc/codestar/fields/background/background.php:275
+msgid "Lighten"
+msgstr "روشن کردن"
+
+#: inc/codestar/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr "دوج رنگی"
+
+#: inc/codestar/fields/background/background.php:277
+msgid "Saturation"
+msgstr "اشباع"
+
+#: inc/codestar/fields/background/background.php:278
+msgid "Color"
+msgstr "رنگ"
+
+#: inc/codestar/fields/background/background.php:279
+msgid "Luminosity"
+msgstr "درخشندگی"
+
+#: inc/codestar/fields/backup/backup.php:26
+msgid "Import"
+msgstr "وارد كردن"
+
+#: inc/codestar/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr "خروچی گرفتن و دانلود"
+
+#: inc/codestar/fields/border/border.php:25
+#: inc/codestar/fields/spacing/spacing.php:25
+msgid "top"
+msgstr "بالا"
+
+#: inc/codestar/fields/border/border.php:26
+#: inc/codestar/fields/spacing/spacing.php:26
+msgid "right"
+msgstr "راست"
+
+#: inc/codestar/fields/border/border.php:27
+#: inc/codestar/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr "پایین"
+
+#: inc/codestar/fields/border/border.php:28
+#: inc/codestar/fields/spacing/spacing.php:28
+msgid "left"
+msgstr "چپ"
+
+#: inc/codestar/fields/border/border.php:29
+#: inc/codestar/fields/spacing/spacing.php:29
+msgid "all"
+msgstr "همه"
+
+#: inc/codestar/fields/border/border.php:51
+#: inc/codestar/fields/typography/typography.php:214
+msgid "Solid"
+msgstr "خطی"
+
+#: inc/codestar/fields/border/border.php:52
+#: inc/codestar/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr "نقطه چین"
+
+#: inc/codestar/fields/border/border.php:53
+#: inc/codestar/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr "خط چین"
+
+#: inc/codestar/fields/border/border.php:54
+#: inc/codestar/fields/typography/typography.php:215
+msgid "Double"
+msgstr "دو برابر"
+
+#: inc/codestar/fields/border/border.php:55
+msgid "Inset"
+msgstr "درونی"
+
+#: inc/codestar/fields/border/border.php:56
+msgid "Outset"
+msgstr "بیرونی"
+
+#: inc/codestar/fields/border/border.php:57
+msgid "Groove"
+msgstr "شیار"
+
+#: inc/codestar/fields/border/border.php:58
+msgid "ridge"
+msgstr "برآمدگی"
+
+#: inc/codestar/fields/border/border.php:59
+#: inc/codestar/fields/typography/typography.php:199
+#: inc/codestar/fields/typography/typography.php:213
+msgid "None"
+msgstr "هیچ"
+
+#: inc/codestar/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr "عرض"
+
+#: inc/codestar/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr "ارتفاع"
+
+#: inc/codestar/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr "افزودن گالری"
+
+#: inc/codestar/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr "ویرایش گالری"
+
+#: inc/codestar/fields/gallery/gallery.php:22
+#: woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: inc/codestar/fields/group/group.php:41
+#: inc/codestar/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr "خطا: شناسه فیلد تداخل دارد."
+
+#: inc/codestar/fields/group/group.php:52
+#: inc/codestar/fields/group/group.php:107
+#: inc/codestar/fields/repeater/repeater.php:48
+#: inc/codestar/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr "آیا مطمئن هستید؟"
+
+#: inc/codestar/fields/group/group.php:141
+#: inc/codestar/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr "نمی توانید بیشتر اضافه کنید."
+
+#: inc/codestar/fields/group/group.php:142
+#: inc/codestar/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr "نمی توانید بیشتر حذف کنید."
+
+#: inc/codestar/fields/icon/icon.php:20 inc/codestar/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr "افزودن آیکون(نماد)"
+
+#: inc/codestar/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr "حذف  آیکون(نماد)"
+
+#: inc/codestar/fields/link/link.php:20
+msgid "Add Link"
+msgstr "افزودن لینک"
+
+#: inc/codestar/fields/link/link.php:21
+msgid "Edit Link"
+msgstr "ویرایش لینک"
+
+#: inc/codestar/fields/link/link.php:22
+msgid "Remove Link"
+msgstr "حذف  لینک"
+
+#: inc/codestar/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr "هاور(وقتی که موس روی آن قرار میگیرد)"
+
+#: inc/codestar/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr "فعال"
+
+#: inc/codestar/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr "فعال شده"
+
+#: inc/codestar/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr "تمرکز"
+
+#: inc/codestar/fields/map/map.php:24
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#: inc/codestar/fields/map/map.php:25
+msgid "Longitude"
+msgstr "طول جغرافیایی"
+
+#: inc/codestar/fields/media/media.php:25
+#: inc/codestar/fields/upload/upload.php:24
+msgid "Upload"
+msgstr "آپلود"
+
+#: inc/codestar/fields/media/media.php:26
+#: inc/codestar/fields/upload/upload.php:25
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/codestar/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr "فعال"
+
+#: inc/codestar/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: inc/codestar/fields/switcher/switcher.php:20
+msgid "On"
+msgstr "روشن"
+
+#: inc/codestar/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr "خاموش"
+
+#: inc/codestar/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr "فونت"
+
+#: inc/codestar/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr "یک فونت انتخاب کنید"
+
+#: inc/codestar/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr "فونت پشتیبان"
+
+#: inc/codestar/fields/typography/typography.php:119
+#: inc/codestar/fields/typography/typography.php:132
+#: inc/codestar/fields/typography/typography.php:145
+#: inc/codestar/fields/typography/typography.php:160
+#: inc/codestar/fields/typography/typography.php:176
+#: inc/codestar/fields/typography/typography.php:189
+#: inc/codestar/fields/typography/typography.php:203
+#: inc/codestar/fields/typography/typography.php:221
+msgid "Default"
+msgstr "پیش فرض"
+
+#: inc/codestar/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr "سبک قلم"
+
+#: inc/codestar/fields/typography/typography.php:144
+#: inc/codestar/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr "بارگذاری سبک های اضافی"
+
+#: inc/codestar/fields/typography/typography.php:158
+msgid "Subset"
+msgstr "زیرمجموعه"
+
+#: inc/codestar/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr "تراز کردن"
+
+#: inc/codestar/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr "ارثبری"
+
+#: inc/codestar/fields/typography/typography.php:171
+msgid "Left"
+msgstr "چپ"
+
+#: inc/codestar/fields/typography/typography.php:172
+msgid "Center"
+msgstr "مرکز"
+
+#: inc/codestar/fields/typography/typography.php:173
+msgid "Right"
+msgstr "راست"
+
+#: inc/codestar/fields/typography/typography.php:174
+msgid "Justify"
+msgstr "تراز از چپ و راست"
+
+#: inc/codestar/fields/typography/typography.php:175
+msgid "Initial"
+msgstr "اولیه"
+
+#: inc/codestar/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr "نوع فونت"
+
+#: inc/codestar/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr "کلاه های کوچک"
+
+#: inc/codestar/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr "تمام کلاه های کوچک"
+
+#: inc/codestar/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr "تبدیل متن"
+
+#: inc/codestar/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr "بزرگ کردن"
+
+#: inc/codestar/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr "حروف بزرگ"
+
+#: inc/codestar/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr "حروف کوچک"
+
+#: inc/codestar/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr "دکوراسیون متن"
+
+#: inc/codestar/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr "موج دار"
+
+#: inc/codestar/fields/typography/typography.php:219
+msgid "Overline"
+msgstr "خط روی خط"
+
+#: inc/codestar/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr "از طریق خط"
+
+#: inc/codestar/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: inc/codestar/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr "ارتفاع خط"
+
+#: inc/codestar/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr "فاصله بین حروف"
+
+#: inc/codestar/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr "فاصله کلمات"
+
+#: inc/codestar/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr "رنگ فونت"
+
+#: inc/codestar/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr "سبک سفارشی"
+
+#: inc/codestar/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr "فونت وب سفارشی"
+
+#: inc/codestar/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr "فونت های وب امن"
+
+#: inc/codestar/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr "فونت های وب گوگل"
+
+#: inc/codestar/functions/actions.php:72 inc/codestar/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr "خطا: کلید نامعتبر است."
+
+#: inc/codestar/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr "خطا: پاسخ یک پاسخ JSON معتبر نیست."
+
+#: inc/codestar/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr "خطا: شناسه نامعتبر است."
+
+#: inc/codestar/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr "خطا: شما اجازه انجام این کار را ندارید."
+
+#: inc/codestar/functions/validate.php:14
+#: inc/codestar/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید."
+
+#: inc/codestar/functions/validate.php:32
+#: inc/codestar/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr "لطفا یک شماره معتبر وارد کنید."
+
+#: inc/codestar/functions/validate.php:50
+#: inc/codestar/functions/validate.php:126
+msgid "This field is required."
+msgstr "این فیلد الزامی است."
+
+#: inc/codestar/functions/validate.php:68
+#: inc/codestar/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr "لطفا یک نشانی وب معتبر وارد کنید."
+
+#: inc/elementor/razmnix-elementor.php:9
+msgid "Phoenix"
+msgstr "ققنوس"
+
+#: inc/elementor/razmnix-elementor.php:13
+msgid "Phoenix Header"
+msgstr "ققنوس سربرگ (هدر)"
+
+#: inc/elementor/razmnix-elementor.php:17
+msgid "Phoenix Footer"
+msgstr "ققنوس پاورقی (فوتر)"
+
+#: inc/elementor/widgets/widget-auth-btn.php:18
+msgid "Account button"
+msgstr "دکمه حساب کاربری"
+
+#: inc/elementor/widgets/widget-auth-btn.php:73
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:16
+msgid "Slider blog articles"
+msgstr "مقالات وبلاگ اسلایدر اسلایدر"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:31
+msgid "Slider blog articles settings"
+msgstr "تنظیمات مقالات وبلاگ اسلایدر"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:38
+msgid "Number of articles"
+msgstr "تعداد مقالات"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:53
+#: inc/elementor/widgets/widget-products-slider.php:52
+#: inc/elementor/widgets/widget-products.php:52
+msgid "Column count"
+msgstr "تعداد ستون ها"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:55
+#: inc/elementor/widgets/widget-products-slider.php:54
+#: inc/elementor/widgets/widget-products.php:54
+msgid "single column"
+msgstr "تک ستون"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:56
+#: inc/elementor/widgets/widget-products-slider.php:55
+#: inc/elementor/widgets/widget-products.php:55
+msgid "two columns"
+msgstr "دو ستون"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:57
+#: inc/elementor/widgets/widget-products-slider.php:56
+#: inc/elementor/widgets/widget-products.php:56
+msgid "three columns"
+msgstr "سه ستون"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:58
+#: inc/elementor/widgets/widget-products-slider.php:57
+#: inc/elementor/widgets/widget-products.php:57
+msgid "four columns"
+msgstr "چهار ستون"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:59
+#: inc/elementor/widgets/widget-products-slider.php:58
+#: inc/elementor/widgets/widget-products.php:58
+msgid "six columns"
+msgstr "شش ستون"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:67
+#: inc/elementor/widgets/widget-products-slider.php:66
+#: inc/elementor/widgets/widget-products.php:66
+msgid "category"
+msgstr "دسته بندی"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:77
+#: inc/elementor/widgets/widget-products-slider.php:76
+#: inc/elementor/widgets/widget-products.php:76
+msgid "Ordering"
+msgstr "مرتب سازی"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:79
+#: inc/elementor/widgets/widget-products-slider.php:78
+#: inc/elementor/widgets/widget-products.php:78
+msgid "Ascending"
+msgstr "صعودی"
+
+#: inc/elementor/widgets/widget-blog-posts-slider.php:80
+#: inc/elementor/widgets/widget-products-slider.php:79
+#: inc/elementor/widgets/widget-products.php:79
+msgid "Descending"
+msgstr "نزولی"
+
+#: inc/elementor/widgets/widget-contact.php:15
+msgid "Contact information"
+msgstr "اطلاعات تماس"
+
+#: inc/elementor/widgets/widget-contact.php:30
+msgid "Contact information settings"
+msgstr "تنظیمات اطلاعات تماس"
+
+#: inc/elementor/widgets/widget-contact.php:36
+msgid "Address"
+msgstr "نشانی"
+
+#: inc/elementor/widgets/widget-contact.php:41
+#: inc/elementor/widgets/widget-phone-number.php:16
+#: inc/elementor/widgets/widget-phone-number.php:37
+#: inc/razmnix-settings.php:122
+msgid "Phone number"
+msgstr "شماره تلفن"
+
+#: inc/elementor/widgets/widget-contact.php:47
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/elementor/widgets/widget-footer-menu.php:16
+msgid "Footer menu"
+msgstr "منوی فوتر"
+
+#: inc/elementor/widgets/widget-footer-menu.php:31
+msgid "Footer menu settings"
+msgstr "تنظیمات منو فوتر"
+
+#: inc/elementor/widgets/widget-footer-menu.php:41
+#: inc/elementor/widgets/widget-footer-title.php:36
+#: inc/elementor/widgets/widget-offer-slider.php:36
+#: inc/elementor/widgets/widget-simple-slider.php:41
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/elementor/widgets/widget-footer-menu.php:46
+#: inc/elementor/widgets/widget-simple-slider.php:46
+msgid "link"
+msgstr "لینک"
+
+#: inc/elementor/widgets/widget-footer-menu.php:52
+msgid "Menu items"
+msgstr "آیتم های منو"
+
+#: inc/elementor/widgets/widget-footer-title.php:15
+msgid "Custom footer title"
+msgstr "عنوان فوتر سفارشی"
+
+#: inc/elementor/widgets/widget-footer-title.php:30
+msgid "Custom title settings"
+msgstr "تنظیمات عنوان سفارشی"
+
+#: inc/elementor/widgets/widget-footer-title.php:42
+msgid "Bold title"
+msgstr "عنوان بلد"
+
+#: inc/elementor/widgets/widget-menu.php:16 inc/razmnix-add.php:22
+msgid "Main menu"
+msgstr "منوی اصلی"
+
+#: inc/elementor/widgets/widget-menu.php:31
+msgid "Main menu settings"
+msgstr "تنظیمات منوی اصلی"
+
+#: inc/elementor/widgets/widget-offer-slider.php:15
+#: inc/elementor/widgets/widget-offer-slider.php:37 inc/razmnix-add.php:95
+msgid "Amazing offer"
+msgstr "پیشنهاد شگفت انگیز"
+
+#: inc/elementor/widgets/widget-offer-slider.php:30
+msgid "Amazing offer settings"
+msgstr "تنظیمات پیشنهاد شگفت انگیز"
+
+#: inc/elementor/widgets/widget-offer-slider.php:42
+#: inc/elementor/widgets/widget-phone-number.php:44
+msgid "Description"
+msgstr "توضیحات"
+
+#: inc/elementor/widgets/widget-offer-slider.php:43
+msgid ""
+"In this section, you can see all the products that have a special discount "
+"on our site"
+msgstr ""
+"در این قسمت می توانید تمامی محصولاتی که در سایت ما دارای تخفیف ویژه هستند را "
+"مشاهده کنید"
+
+#: inc/elementor/widgets/widget-offer-slider.php:48
+msgid "Only discounted products are displayed"
+msgstr "فقط محصولات با تخفیف نمایش داده می شوند"
+
+#: inc/elementor/widgets/widget-phone-number.php:31
+msgid "Phone number settings"
+msgstr "تنظیمات شماره تماس"
+
+#: inc/elementor/widgets/widget-phone-number.php:45
+msgid "Get in touch with us"
+msgstr "با ما در تماس باشید"
+
+#: inc/elementor/widgets/widget-products-slider.php:15
+msgid "Slider products"
+msgstr "اسلایدر محصولات"
+
+#: inc/elementor/widgets/widget-products-slider.php:30
+msgid "Product settings slider"
+msgstr "تنظیمات اسلایدر محصولات"
+
+#: inc/elementor/widgets/widget-products-slider.php:37
+#: inc/elementor/widgets/widget-products.php:37
+msgid "Number of products"
+msgstr "تعداد محصولات"
+
+#: inc/elementor/widgets/widget-products.php:15
+msgid "Products"
+msgstr "محصولات"
+
+#: inc/elementor/widgets/widget-products.php:30
+msgid "Products settings"
+msgstr "تنظیمات محصولات"
+
+#: inc/elementor/widgets/widget-search.php:16
+msgid "Search"
+msgstr "جستجو "
+
+#: inc/elementor/widgets/widget-search.php:31
+msgid "Cart button settings"
+msgstr "تنظیمات دکمه سبد خرید"
+
+#: inc/elementor/widgets/widget-search.php:37
+msgid "Search box text"
+msgstr "متن جعبه جستجو"
+
+#: inc/elementor/widgets/widget-search.php:43
+msgid "Field height in pixels"
+msgstr "ارتفاع فیلد بر حسب پیکسل"
+
+#: inc/elementor/widgets/widget-search.php:49
+msgid "Field background"
+msgstr "پس زمینه فیلد"
+
+#: inc/elementor/widgets/widget-search.php:54
+msgid "Button background"
+msgstr "پس زمینه دکمه"
+
+#: inc/elementor/widgets/widget-search.php:60
+msgid "Button padding to pixels"
+msgstr "فاصله از داخل دکمه به پیکسل"
+
+#: inc/elementor/widgets/widget-simple-slider.php:17
+msgid "Image slider"
+msgstr "اسلایدر تصویر"
+
+#: inc/elementor/widgets/widget-simple-slider.php:32
+msgid "Image slider settings"
+msgstr "تنظیمات اسلایدر تصویر"
+
+#: inc/elementor/widgets/widget-simple-slider.php:50
+msgid "Select image"
+msgstr "انتخاب تصویر"
+
+#: inc/elementor/widgets/widget-simple-slider.php:60
+msgid "Slider items"
+msgstr "آِیتم های اسلایدر"
+
+#: inc/razmnix-add.php:23
+msgid "Mobile menu"
+msgstr "منوی موبایل"
+
+#: inc/razmnix-add.php:43
+msgid "Blog sidebar"
+msgstr "نوار کناری وبلاگ"
+
+#: inc/razmnix-add.php:45
+msgid ""
+"All the widgets you put in this section will be displayed on the sidebar of "
+"the blog"
+msgstr ""
+"تمامی ویجت هایی که در این قسمت قرار می دهید در نوار کناری وبلاگ نمایش داده "
+"می شوند"
+
+#: inc/razmnix-add.php:52
+msgid "Shop sidebar"
+msgstr "نوار کناری فروشگاه"
+
+#: inc/razmnix-add.php:54
+msgid ""
+"All the widgets you put in this section will be displayed in the sidebar of "
+"the store"
+msgstr ""
+"تمامی ویجت هایی که در این قسمت قرار می دهید در نوار کناری فروشگاه نمایش داده "
+"می شوند"
+
+#: inc/razmnix-add.php:68
+msgid "Settings tab"
+msgstr "تب تنظیمات"
+
+#: inc/razmnix-add.php:77
+msgid "Disable page title"
+msgstr "غیرفعال کردن عنوان صفحه"
+
+#: inc/razmnix-add.php:78
+msgid "If this option is enabled. The page title will be deleted"
+msgstr "اگر این گزینه فعال باشد. عنوان صفحه حذف خواهد شد"
+
+#: inc/razmnix-add.php:86
+msgid "Additional product settings"
+msgstr "تنظیمات اضافی محصول"
+
+#: inc/razmnix-add.php:96
+msgid ""
+"By activating this option, the product will be displayed in an amazing slider"
+msgstr ""
+"با فعال کردن این گزینه، محصول در یک اسلایدر شگفت انگیز نمایش داده می شود"
+
+#: inc/razmnix-add.php:102
+msgid "Sub-headings"
+msgstr "عناوین فرعی"
+
+#: inc/razmnix-add.php:103
+msgid "You can enter the Latin title of the product in this section"
+msgstr "در این قسمت می توانید عنوان لاتین محصول را وارد کنید"
+
+#: inc/razmnix-add.php:110
+msgid "Original label"
+msgstr "برچسب اصلی"
+
+#: inc/razmnix-add.php:111
+msgid ""
+"By activating this option, the original product label will be displayed on "
+"the product page"
+msgstr ""
+"با فعال کردن این گزینه، برچسب اصلی محصول در صفحه محصول نمایش داده می شود"
+
+#: inc/razmnix-add.php:116
+msgid "Used label"
+msgstr "برچسب استفاده شده"
+
+#: inc/razmnix-add.php:117
+msgid ""
+"By activating this option, the product label of the used product will be "
+"displayed on the product page"
+msgstr ""
+"با فعال کردن این گزینه، برچسب محصول محصول استفاده شده در صفحه محصول نمایش "
+"داده می شود"
+
+#: inc/razmnix-add.php:124
+msgid "3 day delivery"
+msgstr "تحویل 3 روزه"
+
+#: inc/razmnix-add.php:125
+msgid ""
+"By activating this option, the 3-day receipt label will be displayed on the "
+"product page"
+msgstr ""
+"با فعال کردن این گزینه، برچسب رسید 3 روزه در صفحه محصول نمایش داده می شود"
+
+#: inc/razmnix-add.php:133 inc/razmnix-woocommerce.php:89
+msgid "Product features"
+msgstr "ویژگی های محصول"
+
+#: inc/razmnix-add.php:144
+msgid "Add new feature"
+msgstr "افزودن ویژگی جدید"
+
+#: inc/razmnix-add.php:146
+msgid "Features"
+msgstr "ویژگی ها"
+
+#: inc/razmnix-add.php:147
+msgid "New feature"
+msgstr "ویژگی جدید"
+
+#: inc/razmnix-add.php:148
+msgid "Delete feature"
+msgstr "حذف ویژگی"
+
+#: inc/razmnix-add.php:155
+msgid "Feature title"
+msgstr "عنوان ویژگی"
+
+#: inc/razmnix-add.php:165
+msgid "Headers"
+msgstr "سربرگ (هدر)"
+
+#: inc/razmnix-add.php:166
+msgid "Header item"
+msgstr "آیتم سربرگ (هدر)"
+
+#: inc/razmnix-add.php:167
+msgid "Add header"
+msgstr "افزودن سربرگ (هدر)"
+
+#: inc/razmnix-add.php:179
+msgid "Footers"
+msgstr "فوتر"
+
+#: inc/razmnix-add.php:180
+msgid "Footer item"
+msgstr "آیتم پاورقی (فوتر)"
+
+#: inc/razmnix-add.php:181
+msgid "Add footer"
+msgstr "افزودن پاورقی (فوتر)"
+
+#: inc/razmnix-add.php:193
+msgid "mega menu"
+msgstr " مگامنو"
+
+#: inc/razmnix-add.php:194
+msgid "mega menu item"
+msgstr "آیتم مگامنو"
+
+#: inc/razmnix-add.php:195
+msgid "Add mega menu"
+msgstr "افزودن مگامنو"
+
+#: inc/razmnix-ajax.php:35
+msgid "No products found!"
+msgstr "هیچ محصولی یافت نشد!"
+
+#. translators: 1: separator, 2: search phrase
+#: inc/razmnix-functions.php:42
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#: inc/razmnix-functions.php:47
+msgid "Page not found"
+msgstr "صفحه پیدا نشد!"
+
+#. Theme Name of the plugin/theme
+#: inc/razmnix-settings.php:39 inc/razmnix-settings.php:40
+msgid "phoenix"
+msgstr "ققنوس"
+
+#: inc/razmnix-settings.php:47
+msgid "header"
+msgstr "سربرگ (هدر)"
+
+#: inc/razmnix-settings.php:54
+msgid "header Type"
+msgstr "نوع سربرگ (هدر)"
+
+#: inc/razmnix-settings.php:55 inc/razmnix-settings.php:67
+msgid "Select header Type"
+msgstr "انتخاب نوع سربرگ (هدر)"
+
+#: inc/razmnix-settings.php:57
+msgid "default"
+msgstr "پیش فرض"
+
+#: inc/razmnix-settings.php:58 inc/razmnix-settings.php:177
+msgid "elementor"
+msgstr "المنتور"
+
+#: inc/razmnix-settings.php:66
+msgid "header select"
+msgstr "انتخاب سربرگ (هدر)"
+
+#: inc/razmnix-settings.php:75
+msgid "Select Logo ltr"
+msgstr "انتخاب لوگو چپ چین"
+
+#: inc/razmnix-settings.php:83
+msgid "Logo Width ltr"
+msgstr "سایز لوگو چپ چین"
+
+#: inc/razmnix-settings.php:91
+msgid "Select Logo rtl"
+msgstr "انتخاب لوگو راست چین"
+
+#: inc/razmnix-settings.php:99
+msgid "Logo Width rtl"
+msgstr "سایز لوگو راست چین"
+
+#: inc/razmnix-settings.php:107
+msgid "Button text"
+msgstr "متن دکمه"
+
+#: inc/razmnix-settings.php:114
+msgid "Button address"
+msgstr "آدرس دکمه"
+
+#: inc/razmnix-settings.php:132
+msgid "style"
+msgstr "استایل"
+
+#: inc/razmnix-settings.php:138
+msgid "Font selection"
+msgstr "انتخاب فونت"
+
+#: inc/razmnix-settings.php:139
+msgid "Choose a font"
+msgstr "یک فونت انتخاب کنید"
+
+#: inc/razmnix-settings.php:151
+msgid "The main color of the site"
+msgstr "رنگ اصلی سایت"
+
+#: inc/razmnix-settings.php:168
+msgid "Footer"
+msgstr "پاورقی (فوتر)"
+
+#: inc/razmnix-settings.php:174
+msgid "Footer type"
+msgstr "نوع پاورقی (فوتر)"
+
+#: inc/razmnix-settings.php:175
+msgid "Select the type of footer"
+msgstr "انتخاب نوع پاورقی (فوتر)"
+
+#: inc/razmnix-settings.php:185 inc/razmnix-settings.php:186
+msgid "Choose a footer"
+msgstr "انتخاب پاورقی (فوتر)"
+
+#: inc/razmnix-settings.php:195
+msgid "blog"
+msgstr "بلاگ"
+
+#: inc/razmnix-settings.php:201
+msgid "Activating the sticky sidebar of a single post"
+msgstr "فعال کردن نوار کناری چسبنده در صفحه پست"
+
+#: inc/razmnix-settings.php:208
+msgid "Activation of related content of a single post"
+msgstr "فعال سازی محتوای مرتبط یک پست"
+
+#: inc/razmnix-settings.php:215
+msgid "Number of related articles"
+msgstr "تعداد مقالات مرتبط"
+
+#: inc/razmnix-woocommerce.php:33
+msgid "Original product"
+msgstr "محصول اصلی"
+
+#: inc/razmnix-woocommerce.php:45
+msgid "Used product"
+msgstr "محصول استفاده شده"
+
+#: inc/razmnix-woocommerce.php:74
+msgid "3 days shipping"
+msgstr "ارسال 3 روز"
+
+#: inc/razmnix-woocommerce.php:76
+msgid "The product will be delivered within 3 days"
+msgstr "محصول ظرف 3 روز تحویل خواهد شد"
+
+#: page.php:27 single.php:87
+msgid "Comments"
+msgstr "دیدگاه ها"
+
+#: single.php:25
+msgid "Release date:"
+msgstr "تاریخ انتشار:"
+
+#: single.php:32
+msgid "Views:"
+msgstr "بازدیدها:"
+
+#: single.php:57
+msgid "Labels"
+msgstr "برچسب ها"
+
+#: single.php:65
+msgid "share"
+msgstr "اشتراک گذاری"
+
+#: single.php:112
+msgid ""
+"You can share this article with your friends using the following methods"
+msgstr ""
+"با استفاده از روش های زیر می توانید این مقاله را با دوستان خود به اشتراک "
+"بگذارید"
+
+#: templates/blog/grid.php:54
+msgid "read more"
+msgstr "ادامه مطلب"
+
+#: templates/blog/related-posts.php:28
+msgid "Related posts"
+msgstr "پست های مرتبط"
+
+#: woocommerce/cart/cart.php:32
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: woocommerce/cart/cart.php:35
+msgid "This is the shopping cart stage. Go to checkout to complete your order"
+msgstr "این مرحله سبد خرید است. برای تکمیل سفارش خود به تسویه حساب بروید"
+
+#: woocommerce/cart/cart.php:40
+msgid "Product"
+msgstr "محصولات"
+
+#: woocommerce/cart/cart.php:66
+msgid "Remove this item"
+msgstr "حذف این مورد"
+
+#: woocommerce/cart/cart.php:96
+msgid "Available on backorder"
+msgstr "در صورت سفارش مجدد موجود است"
+
+#: woocommerce/cart/cart.php:140
+msgid "discount code"
+msgstr "کد تخفیف"
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon code"
+msgstr "کد کوپن"
+
+#: woocommerce/cart/cart.php:143
+msgid "Apply coupon"
+msgstr "درخواست کوپن"
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr "به روز رسانی سبد خرید"
+
+#: woocommerce/myaccount/dashboard.php:41
+msgid "Total number of products"
+msgstr "تعداد کل محصولات"
+
+#: woocommerce/myaccount/dashboard.php:78
+msgid "Purchased product"
+msgstr "محصول خریداری شده"
+
+#: woocommerce/myaccount/dashboard.php:89
+msgid "Pending payment"
+msgstr "در انتظار پرداخت"
+
+#: woocommerce/myaccount/dashboard.php:100
+msgid "Wallet Balance"
+msgstr "موجودی کیف پول"
+
+#. translators: 1: user display name 2: logout url
+#: woocommerce/myaccount/dashboard.php:111
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr "سلام %1$s (%1$s نیست؟ <a href=\"%2$s\">خروج</a>)"
+
+#. translators: 1: Orders URL 2: Address URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:118
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a href="
+"\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"از داشبورد حساب خود می‌توانید <a href=\"%1$s\">سفارش‌های اخیر</a> خود را "
+"مشاهده کنید، <a href=\"%2$s\">آدرس صورت‌حساب</a> خود را مدیریت کنید، و <a "
+"href =\"%3$s\">گذرواژه و جزئیات حساب خود را ویرایش کنید</a>."
+
+#. translators: 1: Orders URL 2: Addresses URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:121
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"از داشبورد حساب خود می‌توانید <a href=\"%1$s\">سفارش‌های اخیر</a> خود را "
+"مشاهده کنید، <a href=\"%2$s\">آدرس‌های ارسال و صورت‌حساب</a> خود را مدیریت "
+"کنید و < a href=\"%3$s\">گذرواژه و جزئیات حساب خود را ویرایش کنید</a>."
+
+#: woocommerce/myaccount/form-login.php:35
+msgid "Sign in"
+msgstr "ورود"
+
+#: woocommerce/myaccount/form-login.php:38
+msgid "Sign up"
+msgstr "ثبت نام"
+
+#: woocommerce/myaccount/form-login.php:49
+msgid "Username or email address"
+msgstr "نام کاربری یا آدرس ایمیل"
+
+#: woocommerce/myaccount/form-login.php:54
+#: woocommerce/myaccount/form-login.php:100
+msgid "Password"
+msgstr "رمز عبور"
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#: woocommerce/myaccount/form-login.php:65
+msgid "Log in"
+msgstr "ورود"
+
+#: woocommerce/myaccount/form-login.php:68
+msgid "Lost your password?"
+msgstr "رمز عبور خود را فراموش کرده اید؟"
+
+#: woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr "نام کاربری"
+
+#: woocommerce/myaccount/form-login.php:92
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: woocommerce/myaccount/form-login.php:106
+msgid "A link to set a new password will be sent to your email address."
+msgstr "پیوندی برای تنظیم رمز عبور جدید به آدرس ایمیل شما ارسال می شود."
+
+#: woocommerce/myaccount/form-login.php:114
+msgid "Register"
+msgstr "ثبت نام"
+
+#: woocommerce/myaccount/navigation.php:37
+msgid "Hello"
+msgstr "سلام"
+
+#: woocommerce/myaccount/navigation.php:37
+msgid "Dear!"
+msgstr "عزیز!"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "این محصول در حال حاضر موجود نیست و موجود نیست."
+
+#: woocommerce/single-product/related.php:30
+msgid "product"
+msgstr "محصولات"
+
+#: woocommerce/single-product/related.php:33
+msgid "Similar"
+msgstr "مشابه"
+
+#: woocommerce/single-product/short-description.php:34
+msgid "Short product description"
+msgstr "توضیحات کوتاه محصول"
+
+#. Theme URI of the plugin/theme
+msgid "https://razmjoui.ir/phoenix"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "phoenix is a wordpress theme shop"
+msgstr "قالب ققنوس"
+
+#. Author of the plugin/theme
+msgid "razmjoui"
+msgstr "رزمجوئی"
+
+#. Author URI of the plugin/theme
+msgid "https://razmjoui.ir"
+msgstr ""
+
+#, fuzzy
+#~| msgid "three columns"
+#~ msgid "three  columns"
+#~ msgstr "سه ستون"
+
+#, fuzzy
+#~| msgid "four columns"
+#~ msgid "four  columns"
+#~ msgstr "چهار ستون"
+
+#, fuzzy
+#~| msgid "six columns"
+#~ msgid "six  columns"
+#~ msgstr "شش ستون"
+
+#~ msgid "Number of columns"
+#~ msgstr "تعداد ستون ها"
+
+#~ msgid "Megamenos"
+#~ msgstr "مگامنو"
+
+#~ msgid "default header"
+#~ msgstr "پیشفرض"
+
+#~ msgid "elementor header"
+#~ msgstr "المنتور"
+
+#~ msgid "Six columns"
+#~ msgstr "شش ستون"

@@ -1,0 +1,1 @@
+<div x-cloak x-show = "overlayShow" @click = "overlayShow = false; sideMenu = false; modalLogin = false,userDropDown = false" class = "z-40 w-full h-full fixed inset-0 backdrop-filter blur-sm bg-opacity-60 bg-[#334155]"></div>

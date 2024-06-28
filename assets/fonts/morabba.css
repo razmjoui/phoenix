@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Medium.eot');
+    src: url('./Morabba/Morabba-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Medium.woff2') format('woff2'),
+    url('./Morabba/Morabba-Medium.woff') format('woff'),
+    url('./Morabba/Morabba-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Medium_1.eot');
+    src: url('./Morabba/Morabba-Medium_1.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Medium_1.woff2') format('woff2'),
+    url('./Morabba/Morabba-Medium_1.woff') format('woff'),
+    url('./Morabba/Morabba-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Medium_2.eot');
+    src: url('./Morabba/Morabba-Medium_2.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Medium_2.woff2') format('woff2'),
+    url('./Morabba/Morabba-Medium_2.woff') format('woff'),
+    url('./Morabba/Morabba-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Bold.eot');
+    src: url('./Morabba/Morabba-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Bold.woff2') format('woff2'),
+    url('./Morabba/Morabba-Bold.woff') format('woff'),
+    url('./Morabba/Morabba-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Bold_1.eot');
+    src: url('./Morabba/Morabba-Bold_1.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Bold_1.woff2') format('woff2'),
+    url('./Morabba/Morabba-Bold_1.woff') format('woff'),
+    url('./Morabba/Morabba-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Bold_2.eot');
+    src: url('./Morabba/Morabba-Bold_2.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Bold_2.woff2') format('woff2'),
+    url('./Morabba/Morabba-Bold_2.woff') format('woff'),
+    url('./Morabba/Morabba-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Light.eot');
+    src: url('./Morabba/Morabba-Light.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Light.woff2') format('woff2'),
+    url('./Morabba/Morabba-Light.woff') format('woff'),
+    url('./Morabba/Morabba-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Light_1.eot');
+    src: url('./Morabba/Morabba-Light_1.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Light_1.woff2') format('woff2'),
+    url('./Morabba/Morabba-Light_1.woff') format('woff'),
+    url('./Morabba/Morabba-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morabba';
+    src: url('./Morabba/Morabba-Light_2.eot');
+    src: url('./Morabba/Morabba-Light_2.eot?#iefix') format('embedded-opentype'),
+    url('./Morabba/Morabba-Light_2.woff2') format('woff2'),
+    url('./Morabba/Morabba-Light_2.woff') format('woff'),
+    url('./Morabba/Morabba-Light_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

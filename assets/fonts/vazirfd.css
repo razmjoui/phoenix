@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Bold-FD-WOL.eot');
+    src: local('Vazir Bold FD-WOL'), local('Vazir-Bold-FD-WOL'),
+    url('vazir/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Bold-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Bold-FD-WOL.ttf') format('truetype'),
+    url('vazir/Vazir-Bold-FD-WOL.svg#Vazir-Bold-FD-WOL') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Bold-FD-WOL_1.eot');
+    src: local('Vazir Bold FD-WOL'), local('Vazir-Bold-FD-WOL'),
+    url('vazir/Vazir-Bold-FD-WOL_1.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Bold-FD-WOL_1.woff2') format('woff2'),
+    url('vazir/Vazir-Bold-FD-WOL_1.woff') format('woff'),
+    url('vazir/Vazir-Bold-FD-WOL_1.ttf') format('truetype'),
+    url('vazir/Vazir-Bold-FD-WOL_1.svg#Vazir-Bold-FD-WOL') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Bold-FD-WOL_2.eot');
+    src: local('Vazir Bold FD-WOL'), local('Vazir-Bold-FD-WOL'),
+    url('vazir/Vazir-Bold-FD-WOL_2.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Bold-FD-WOL_2.woff2') format('woff2'),
+    url('vazir/Vazir-Bold-FD-WOL_2.woff') format('woff'),
+    url('vazir/Vazir-Bold-FD-WOL_2.ttf') format('truetype'),
+    url('vazir/Vazir-Bold-FD-WOL_2.svg#Vazir-Bold-FD-WOL') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-FD-WOL.eot');
+    src: local('Vazir FD-WOL'), local('Vazir-FD-WOL'),
+    url('vazir/Vazir-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-FD-WOL.ttf') format('truetype'),
+    url('vazir/Vazir-FD-WOL.svg#Vazir-FD-WOL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-FD-WOL_1.eot');
+    src: local('Vazir FD-WOL'), local('Vazir-FD-WOL'),
+    url('vazir/Vazir-FD-WOL_1.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-FD-WOL_1.woff2') format('woff2'),
+    url('vazir/Vazir-FD-WOL_1.woff') format('woff'),
+    url('vazir/Vazir-FD-WOL_1.ttf') format('truetype'),
+    url('vazir/Vazir-FD-WOL_1.svg#Vazir-FD-WOL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-FD-WOL_2.eot');
+    src: local('Vazir FD-WOL'), local('Vazir-FD-WOL'),
+    url('vazir/Vazir-FD-WOL_2.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-FD-WOL_2.woff2') format('woff2'),
+    url('vazir/Vazir-FD-WOL_2.woff') format('woff'),
+    url('vazir/Vazir-FD-WOL_2.ttf') format('truetype'),
+    url('vazir/Vazir-FD-WOL_2.svg#Vazir-FD-WOL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Light-FD-WOL.eot');
+    src: local('Vazir Light FD-WOL'), local('Vazir-Light-FD-WOL'),
+    url('vazir/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Light-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-Light-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Light-FD-WOL.ttf') format('truetype'),
+    url('vazir/Vazir-Light-FD-WOL.svg#Vazir-Light-FD-WOL') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Light-FD-WOL_1.eot');
+    src: local('Vazir Light FD-WOL'), local('Vazir-Light-FD-WOL'),
+    url('vazir/Vazir-Light-FD-WOL_1.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Light-FD-WOL_1.woff2') format('woff2'),
+    url('vazir/Vazir-Light-FD-WOL_1.woff') format('woff'),
+    url('vazir/Vazir-Light-FD-WOL_1.ttf') format('truetype'),
+    url('vazir/Vazir-Light-FD-WOL_1.svg#Vazir-Light-FD-WOL') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Light-FD-WOL_2.eot');
+    src: local('Vazir Light FD-WOL'), local('Vazir-Light-FD-WOL'),
+    url('vazir/Vazir-Light-FD-WOL_2.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Light-FD-WOL_2.woff2') format('woff2'),
+    url('vazir/Vazir-Light-FD-WOL_2.woff') format('woff'),
+    url('vazir/Vazir-Light-FD-WOL_2.ttf') format('truetype'),
+    url('vazir/Vazir-Light-FD-WOL_2.svg#Vazir-Light-FD-WOL') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Medium-FD-WOL.eot');
+    src: local('Vazir Medium FD-WOL'), local('Vazir-Medium-FD-WOL'),
+    url('vazir/Vazir-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Medium-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-Medium-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Medium-FD-WOL.ttf') format('truetype'),
+    url('vazir/Vazir-Medium-FD-WOL.svg#Vazir-Medium-FD-WOL') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Medium-FD-WOL_1.eot');
+    src: local('Vazir Medium FD-WOL'), local('Vazir-Medium-FD-WOL'),
+    url('vazir/Vazir-Medium-FD-WOL_1.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Medium-FD-WOL_1.woff2') format('woff2'),
+    url('vazir/Vazir-Medium-FD-WOL_1.woff') format('woff'),
+    url('vazir/Vazir-Medium-FD-WOL_1.ttf') format('truetype'),
+    url('vazir/Vazir-Medium-FD-WOL_1.svg#Vazir-Medium-FD-WOL') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Medium-FD-WOL_2.eot');
+    src: local('Vazir Medium FD-WOL'), local('Vazir-Medium-FD-WOL'),
+    url('vazir/Vazir-Medium-FD-WOL_2.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Medium-FD-WOL_2.woff2') format('woff2'),
+    url('vazir/Vazir-Medium-FD-WOL_2.woff') format('woff'),
+    url('vazir/Vazir-Medium-FD-WOL_2.ttf') format('truetype'),
+    url('vazir/Vazir-Medium-FD-WOL_2.svg#Vazir-Medium-FD-WOL') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Thin-FD-WOL.eot');
+    src: local('Vazir Thin FD-WOL'), local('Vazir-Thin-FD-WOL'),
+    url('vazir/Vazir-Thin-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Thin-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-Thin-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Thin-FD-WOL.ttf') format('truetype'),
+    url('vazir/Vazir-Thin-FD-WOL.svg#Vazir-Thin-FD-WOL') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Thin-FD-WOL_1.eot');
+    src: local('Vazir Thin FD-WOL'), local('Vazir-Thin-FD-WOL'),
+    url('vazir/Vazir-Thin-FD-WOL_1.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Thin-FD-WOL_1.woff2') format('woff2'),
+    url('vazir/Vazir-Thin-FD-WOL_1.woff') format('woff'),
+    url('vazir/Vazir-Thin-FD-WOL_1.ttf') format('truetype'),
+    url('vazir/Vazir-Thin-FD-WOL_1.svg#Vazir-Thin-FD-WOL') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir FD-WOL';
+    src: url('vazir/Vazir-Thin-FD-WOL_2.eot');
+    src: local('Vazir Thin FD-WOL'), local('Vazir-Thin-FD-WOL'),
+    url('vazir/Vazir-Thin-FD-WOL_2.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Thin-FD-WOL_2.woff2') format('woff2'),
+    url('vazir/Vazir-Thin-FD-WOL_2.woff') format('woff'),
+    url('vazir/Vazir-Thin-FD-WOL_2.ttf') format('truetype'),
+    url('vazir/Vazir-Thin-FD-WOL_2.svg#Vazir-Thin-FD-WOL') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}

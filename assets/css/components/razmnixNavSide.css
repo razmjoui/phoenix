@@ -1,0 +1,49 @@
+@layer components {
+    .razmnixNavSide {
+        ul {
+            @apply relative flex flex-col items-start justify-center w-full px-6 transition-all;
+        }
+
+        li {
+            /*@apply flex items-center w-full flex-col transition-all;*/
+            @apply rtl:pr-4 ltr:pl-4 relative py-4 text-base font-medium flex flex-col items-start justify-center w-full rounded-lg transition-all cursor-pointer hover:bg-[#eceeef]  hover:dark:bg-[#1b314c] text-[#334155] dark:text-white;
+
+
+            ul {
+                @apply hidden transition-all;
+
+            }
+
+        }
+
+        a {
+            @apply  p-0;
+        }
+        .sub-menu{
+            @apply pt-1;
+            li{
+                @apply py-2 px-0;
+            }
+        }
+
+
+        li:hover {
+            @apply dark:hover:bg-dark-900 rounded-lg w-full hover:bg-gray-200 transition-all;
+
+            > ul {
+                @apply flex transition-all bg-opacity-90;
+
+            }
+        }
+
+        .menu-item-has-children > a svg {
+            @apply mx-2 rotate-180 transition-all;
+            /*position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);*/
+            fill: currentColor; /* این رنگ آیکون را با رنگ متن همسان می‌کند */
+        }
+
+    }
+}

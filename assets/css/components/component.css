@@ -1,0 +1,6 @@
+@layer components {
+    .headerLogoWidth {
+        @apply lg:w-[var(--headerLogoWidth)] md:w-[var(--headerLogoWidthTablet)] w-[var(--headerLogoWidthMobile)]
+    }
+
+}
