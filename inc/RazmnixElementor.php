@@ -19,6 +19,7 @@ class RazmnixElementor
         require_once(RAZMNIX_WIDGETS . 'RazmnixThemesMode.php');
         require_once(RAZMNIX_WIDGETS . 'RazmnixLogo.php');
         require_once(RAZMNIX_WIDGETS . 'RazmnixBtn.php');
+        require_once(RAZMNIX_WIDGETS . 'Razmnixcontainer.php');
 
 //        require_once(RAZMNIX_WIDGETS . 'RazmnixCart.php');
 
@@ -27,6 +28,7 @@ class RazmnixElementor
         $widgets_manager->register(new RazmnixThemesMode());
         $widgets_manager->register(new RazmnixLogo());
         $widgets_manager->register(new RazmnixBtn());
+        $widgets_manager->register(new Razmnixcontainer());
 
 
     }
@@ -40,22 +42,10 @@ class RazmnixElementor
         add_action('elementor/elements/categories_registered', [$this, 'ElementorCategories']);
 
 
-        // Add Class to Container Widget
-        add_action('elementor/frontend/before_render', [$this, 'addClassContainerAlpine'], 10, 1);
-        add_action('elementor/widget/before_render_content', [$this, 'addClassContainerAlpine'], 10, 1);
-        add_action('elementor/frontend/after_enqueue_styles', function () {
-            if (\Elementor\Plugin::$instance->preview->is_preview_mode()) {
-                add_action('elementor/frontend/widget/before_render', 'addClassContainerAlpine', 10, 1);
-            }
-        });
-
-
-        // Add Controls to Container Widget
-        add_action('elementor/element/container/section_background/before_section_start', [$this, 'customControlsContainer'], 10, 2);
 
     }
 
-
+/*
     public function addClassContainerAlpine($widget)
     {
         if ($widget->get_name() === 'container') {
@@ -193,7 +183,7 @@ class RazmnixElementor
         $element->end_controls_tab();
         $element->end_controls_tabs();
         $element->end_controls_section();
-    }
+    }*/
 
 
     public function ElementorCategories($elements_manager)

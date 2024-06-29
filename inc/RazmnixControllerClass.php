@@ -12,6 +12,7 @@ class RazmnixControllerClass
         new RazmnixAction();
         new RazmnixMegaMenu();
         new RazmnixElementor();
+        new RazmnixDefaultWidget();
 
     }
 }
