@@ -25,5 +25,13 @@
 <?php wp_footer(); ?>
 
 <script>window.Alpine.start();</script>
+<style>
+    :root {
+        --headerLogoWidth: <?= RazmnixGetOptions::$headerLogoWidth?? '208' ?>px;
+        --headerLogoWidthTablet: <?= RazmnixGetOptions::$headerLogoWidthTablet?? '160' ?>px;
+        --headerLogoWidthMobile: <?= RazmnixGetOptions::$headerLogoWidthMobile?? '96' ?>px;
+    }
+
+</style>
 </body>
 </html>

@@ -7,8 +7,6 @@ class RazmnixDefaultWidget {
 	public function __construct() {
 		// Add Class to All Widget
 		add_action( 'elementor/frontend/before_render', [ $this, 'addClass' ], 10, 1 );
-		add_action( 'elementor/widget/before_render_content', [ $this, 'addClass' ], 10, 1 );
-		add_action( 'elementor/frontend/widget/before_render', [ $this, 'addClass' ], 10, 1 );
 		add_action( 'elementor/frontend/after_enqueue_styles', function () {
 			if ( \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
 				add_action( 'elementor/frontend/widget/before_render', [ $this, 'addClass' ], 10, 1 );
@@ -23,10 +21,8 @@ class RazmnixDefaultWidget {
 
 
 	public function addClass( $widget ) {
-		$widget->add_render_attribute( '_wrapper', 'x-bind:class', "isDarkness ? 'razmnixDark' : 'razmnixLight'" );
-
+		$widget->add_render_attribute( '_wrapper', ':class', "isDarkness ? 'razmnixDark' : 'razmnixLight'" );
 	}
-
 
 	public function customControls( $element, $args ) {
 		$this->customControlsDark( $element, $args );

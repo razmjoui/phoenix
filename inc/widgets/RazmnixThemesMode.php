@@ -1,6 +1,6 @@
 <?php
 
-namespace Razm\widgets;
+namespace Razm;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Border;

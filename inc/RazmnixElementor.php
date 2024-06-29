@@ -2,10 +2,7 @@
 
 namespace Razm;
 
-use Razm\widgets\RazmnixBtn;
-use Razm\widgets\RazmnixLogo;
-use Razm\widgets\RazmnixSearch;
-use Razm\widgets\RazmnixThemesMode;
+
 
 
 class RazmnixElementor
