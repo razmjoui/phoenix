@@ -27,19 +27,19 @@
                             <div class = "flex justify-between items-center gap-x-2">
                                 <div class = "size-6 text-gray-600 dark:text-white content-center">
                                     <a title = "" class = "h-4 w-4" href = "#"
-                                       target = "_blank"><?= get_svg_code("brands", "youtube") ?></a>
+                                       target = "_blank"><?= razmnixIcon('fontawesome/' . "brands", "youtube") ?></a>
                                 </div>
                                 <div class = "size-5 text-gray-600 dark:text-white content-center">
                                     <a title = "" class = "h-4 w-4" href = "#"
-                                       target = "_blank"><?= get_svg_code("brands", "x-twitter") ?></a>
+                                       target = "_blank"><?= razmnixIcon('fontawesome/' . "brands", "x-twitter") ?></a>
                                 </div>
                                 <div class = "size-5 text-gray-600 dark:text-white content-center">
                                     <a title = "" class = "h-4 w-4" href = "#"
-                                       target = "_blank"><?= get_svg_code("brands", "instagram") ?></a>
+                                       target = "_blank"><?= razmnixIcon('fontawesome/' . "brands", "instagram") ?></a>
                                 </div>
                                 <div class = "size-5 text-gray-600 dark:text-white ">
                                     <a title = "" class = "h-4 w-4" href = "#"
-                                       target = "_blank"><?= get_svg_code("brands", "linkedin-in") ?></a>
+                                       target = "_blank"><?= razmnixIcon('fontawesome/' . "brands", "linkedin-in") ?></a>
                                 </div>
                             </div>
                         </div>

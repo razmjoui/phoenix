@@ -16,7 +16,7 @@ class ComposerStaticInitf5cb1235d643253974a9d23c57f0a100
     public static $prefixDirsPsr4 = array (
         'Razm\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/inc',
+            0 => __DIR__ . '/../..' . '/classes',
         ),
     );
 

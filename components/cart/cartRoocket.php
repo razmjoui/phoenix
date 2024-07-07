@@ -6,7 +6,7 @@
          class = "group size-12 flex items-center justify-center rounded-full transition relative cursor-pointer
                                               bg-[#eceeef] dark:bg-[#1b314c] hover:bg-[#334155] dark:hover:bg-[#c2c6cc]
                                               text-[#334155] dark:text-white dark:hover:text-[#1b314c] hover:text-[#c2c6cc]">
-        <span class = "size-5"><?= get_svg_code('duotone' , 'bag-shopping-plus'); ?></span>
+        <span class = "size-5"><?= razmnixIcon('fontawesome/' . 'duotone' , 'bag-shopping-plus'); ?></span>
         <span class = "absolute text-white bg-red-400 rounded-full w-6 h-6 flex items-center justify-center text-xs -top-2 -right-2">2</span>
     </div>
 
@@ -20,7 +20,7 @@
                class = "flex items-center group dark:hover:text-white dark:text-blue-400 text-blue-700 text-sm font-medium group hover:text-[#334155] transition duration-200">
                 <span class = "-mt-1">مشاهده سبد خرید</span>
                 <span class = "rtl:mr-1 ltr:ml-1 ltr:rotate-180 dark:group-hover:text-white text-blue-700 group-hover:text-[#334155] size-5">
-                                                <?= get_svg_code('duotone' , 'chevrons-left'); ?>
+                                                <?= razmnixIcon('fontawesome/' . 'duotone' , 'chevrons-left'); ?>
                                             </span>
             </a>
         </div>
@@ -69,7 +69,7 @@
 
                     class = "dark:text-white text-[#334155] hover:text-primary dark:hover:text-primary cursor-pointer p-1 rounded-full ">
 
-                    <div class = "size-4"><?= get_svg_code('duotone' , 'trash') ?></div>
+                    <div class = "size-4"><?= razmnixIcon('fontawesome/' . 'duotone' , 'trash') ?></div>
 
                 </div>
 
@@ -94,7 +94,7 @@
                    class = "flex items-center justify-center w-full gap-x-2 py-4 rounded-lg dark:hover:bg-transparent dark:hover:border-opacity-100 dark:hover:text-white border border-white border-opacity-0 dark:bg-white bg-blue-100 hover:bg-blue-200 text-blue-700 font-semibold text-lg transition">
                     <div>تکمیل فرایند خرید</div>
                     <span class = "size-5">
-                                                <?= get_svg_code('duotone' , 'chevrons-left'); ?>
+                                                <?= razmnixIcon('fontawesome/' . 'duotone' , 'chevrons-left'); ?>
                                             </span>
                 </a>
             </div>

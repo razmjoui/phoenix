@@ -1,2 +1,2 @@
 <?php
-echo RazmnixElementorParts('footer', Razm\RazmnixGetOptions::$footerElementor);
+echo RazmnixElementorParts( 'footer', Razm\RazmnixGetOptions::$footerElementor);

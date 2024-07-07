@@ -14,17 +14,17 @@
                     <div class = "relative hvr-ripple-out">
 
                         <div class = "rtl:ml-4 ltr:mr-4 size-12 group relative rounded-full overflow-hidden flex items-center justify-center transition cursor-pointer bg-[#eceeef] dark:bg-[#1b314c] hover:bg-[#334155] dark:hover:bg-[#c2c6cc] text-[#334155] dark:text-white dark:hover:text-[#1b314c] hover:text-[#c2c6cc]">
-                            <a class = "size-6 block"><?= get_svg_code('duotone' , 'user'); ?></a>
+                            <a class = "size-6 block"><?= razmnixIcon( 'fontawesome/' . 'duotone', 'user' ); ?></a>
                         </div>
                     </div>
                     <div class = "flex flex-col">
                         <a href = "/user/arrazm"
                            class = "mb-2 dark:text-white text-biscay-500 hover:text-biscay-650 duration-200 transition font-bold text-xl">علیرضا
-                            رزمجو</a>
+                                                                                                                                          رزمجو</a>
                         <a href = "#"
                            class = "flex items-center font-medium text-base dark:text-blue-450 text-blue-700 hover:opacity-80">
                             مشاهده پنل کاربری
-                            <div class = "rtl:mr-2 ltr:ml-2 size-5"><?= get_svg_code('duotone' , 'chevrons-left'); ?></div>
+                            <div class = "rtl:mr-2 ltr:ml-2 size-5"><?= razmnixIcon( 'fontawesome/' . 'duotone', 'chevrons-left' ); ?></div>
 
                         </a>
                     </div>
@@ -76,49 +76,90 @@
 
         <!-- user menu -->
         <ul class = "pb-7 px-5">
+
+			<?php
+			$userMenus = get_option( 'razmnix_settings' )['userMenus'] ?? [];
+
+			$iconName = '';
+			$iconType = '';
+			foreach ( $userMenus as $userMenu ):
+				if ( $userMenu['userMenuIcon'] ) {
+					switch ( $userMenu['userMenuIconBase'] ) {
+						case 'fontawesome':
+							$iconType = $userMenu['userMenuIconBase'] . '/' . $userMenu['userMenuIconType'];
+							$iconName = $userMenu['userMenuIconName'];
+							break;
+						case 'heroicons':
+							$iconType = $userMenu['userMenuIconBase'] . '/' . $userMenu['userMenuIconTypeH'];
+							$iconName = $userMenu['userMenuIconNameH'];
+							break;
+						case 'phoenix':
+							$iconType = $userMenu['userMenuIconBase'];
+							$iconName = $userMenu['userMenuIconNameP'];
+							break;
+
+					}
+				}
+				?>
+                <li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
+                    <a href = "<?= esc_url( $userMenu['userMenuLink']['url'] ) ?>" title = "<?= esc_attr( $userMenu['userMenuLink']['text'] ) ?>"
+                       target = "<?= esc_attr( $userMenu['userMenuLink']['target'] ) ?>" class = "flex items-center justify-between py-3 px-4">
+                        <div class = "flex items-center">
+                            <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?= razmnixIcon( esc_html( $iconType ), esc_html( $iconName ) ) ?></div>
+                            <span class = "dark:text-gray-920 text-gray-550 font-normal text-lg"><?= esc_html( $userMenu['userMenu'] ) ?></span>
+                        </div>
+                    </a>
+                </li>
+			<?php
+
+
+			endforeach;
+			?>
+
+
             <!-- Courses Link -->
-            <li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
+            <!--<li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
                 <a href = "#" class = "flex items-center py-3 px-4">
                     <div class = "flex items-center">
 
-                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?= get_svg_code('duotone' , 'video') ?></div>
+                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?php /*= razmnixIcon( 'fontawesome/' . 'duotone', 'video' ) */ ?></div>
                         <span class = "dark:text-gray-920 text-gray-550 font-normal text-lg">دوره ها</span>
                     </div>
                 </a>
-            </li>
+            </li>-->
             <!-- /Courses Link -->
 
             <!-- Wallet Link -->
-            <li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
+            <!--<li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
                 <a href = "#" class = "flex items-center justify-between py-3 px-4">
                     <div class = "flex items-center">
-                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?= get_svg_code('duotone' , 'wallet') ?></div>
+                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?php /*= razmnixIcon( 'fontawesome/' . 'duotone', 'wallet' ) */ ?></div>
 
                         <span class = "dark:text-gray-920 text-gray-550 font-normal text-lg">مالی و اشتراک</span>
                     </div>
                 </a>
-            </li>
+            </li>-->
             <!-- /Wallet Link -->
             <!-- Questions Link -->
-            <li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
+            <!--<li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
                 <a href = "#" class = "flex items-center justify-between py-3 px-4">
                     <div class = "flex items-center">
-                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?= get_svg_code('duotone' , 'message-question') ?></div>
+                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?php /*= razmnixIcon( 'fontawesome/' . 'duotone', 'message-question' ) */ ?></div>
                         <span class = "dark:text-gray-920 text-gray-550 font-normal text-lg">پرسش‌ها</span>
                     </div>
                 </a>
-            </li>
+            </li>-->
             <!-- /Questions Link -->
 
             <!-- Logout Link -->
-            <li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
+            <!--<li class = "dark:hover:bg-dark-450 hover:bg-dark-550 hover:bg-opacity-10 rounded-lg group">
                 <a href = "#" class = "flex items-center justify-between py-3 px-4">
                     <div class = "flex items-center">
-                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?= get_svg_code('duotone' , 'arrow-right-from-bracket') ?></div>
+                        <div class = "dark:text-gray-920 text-gray-550 group-hover:scale-110 rtl:ml-4 ltr:mr-4 size-5"><?php /*= razmnixIcon( 'fontawesome/' . 'duotone', 'arrow-right-from-bracket' ) */ ?></div>
                         <span class = "dark:text-gray-920 text-gray-550 font-normal text-lg">خروج از حساب کاربری</span>
                     </div>
                 </a>
-            </li>
+            </li>-->
             <!-- /Logout Link -->
         </ul>
 

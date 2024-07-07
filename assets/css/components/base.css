@@ -114,7 +114,7 @@
     }
  
     a {
-        @apply font-link transition-all duration-200;
+        @apply font-link transition-all;
     }
 
     p {
@@ -138,7 +138,7 @@
     }
 
     ul, li, ol {
-        @apply font-list transition-all duration-200;
+        @apply font-list transition-all;
     }
 
     /**, *::after, *::before {

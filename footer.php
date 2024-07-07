@@ -24,7 +24,6 @@
 
 <?php wp_footer(); ?>
 
-<script>window.Alpine.start();</script>
 <style>
     :root {
         --headerLogoWidth: <?= RazmnixGetOptions::$headerLogoWidth?? '208' ?>px;

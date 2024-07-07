@@ -4,7 +4,7 @@
         <!-- Close Btn -->
         <div @click = "overlayShow = false ; modalLogin = false"
              class = "size-10 top-0 flex items-center justify-center rtl:right-0 ltr:left-0 transition-all absolute cursor-pointer dark:bg-gray-100 dark:text-gray-800  dark:hover:text-white dark:hover:bg-dark-890 hover:bg-gray-200 text-white hover:text-gray-800 bg-dark-890 rtl:rounded-tr-lg rtl:rounded-bl-lg ltr:rounded-tl-lg ltr:rounded-br-lg ">
-            <div class = "w-5 h-6 "><?= get_svg_code('solid', 'xmark'); ?></div>
+            <div class = "w-5 h-6 "><?= razmnixIcon('fontawesome/' . 'solid', 'xmark'); ?></div>
         </div>
         <!-- /Close Btn -->
 
@@ -81,7 +81,7 @@
             <!-- /Password input -->
 
             <!-- Nonce -->
-            <?= wp_nonce_field('woocommerce-login') ?>
+            <?php wp_nonce_field('woocommerce-login') ?>
             <!-- /Nonce -->
 
             <!-- Login button -->

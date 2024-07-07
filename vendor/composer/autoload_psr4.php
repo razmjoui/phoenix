@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Razm\\' => array($baseDir . '/inc'),
+    'Razm\\' => array($baseDir . '/classes'),
 );

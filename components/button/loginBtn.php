@@ -2,7 +2,7 @@
 <div class = "mb-9 text-lg flex items-center justify-center text-blue-700 gap-x-3 ">
     <!-- Btn Register -->
     <a class = "hover:bg-blue-700 border dark:bg-dark-890 dark:text-white border-transparent hover:text-white hover:border-blue-700 group bg-white text-blue-700 transition duration-200 sm:text-lg text-base font-medium  sm:h-12 h-10 flex  rounded-md sm:px-6 px-5 items-center"
-       href = "<?= esc_url(home_url(Razm\RazmnixGetOptions::$registerUrl ? : '\register')) ?>">
+       href = "<?= esc_url(home_url( Razm\RazmnixGetOptions::$registerUrl ? : '\register')) ?>">
                 <span class = "sm:ml-2 ml-1  transition duration-200 transform sm:scale-100 scale-90">
                     <svg width = "20" height = "19" viewBox = "0 0 20 19" fill = "none"
                          xmlns = "http://www.w3.org/2000/svg">
@@ -20,7 +20,7 @@
     <!-- /Btn Register -->
     <!-- Btn Login -->
     <a class = "border border-transparent  dark:border-gray-920 dark:bg-dark-890 bg-blue-700  transition duration-200 sm:text-lg text-base font-medium text-white sm:h-12 h-10 flex  rounded-md sm:px-6 px-5 items-center"
-       href = "<?= esc_url(home_url(Razm\RazmnixGetOptions::$loginUrl ? : '\login')) ?>">
+       href = "<?= esc_url(home_url( Razm\RazmnixGetOptions::$loginUrl ? : '\login')) ?>">
 
                 <span class = "sm:ml-2 ml-1 text-white transition duration-200 transform sm:scale-100 scale-90">
                     <svg width = "20" height = "20" viewBox = "0 0 20 20" fill = "none"

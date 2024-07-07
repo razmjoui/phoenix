@@ -21,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/classes/RazmnixFontAwesome.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -151,7 +154,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.9&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/razm/Local Sites/wpdev/app/wp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/razm/AppData/Roaming/Local/lightning-services/php-7.4.30+6/bin/win64/php.exe&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -164,10 +167,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\inc" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\svg\phoenix" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\svgs\fontawesome" />
+      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\widgets" />
       <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\vendor" />
-      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\css\components" />
-      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\assets\css" />
-      <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix" />
     </key>
   </component>
   <component name="RunManager">

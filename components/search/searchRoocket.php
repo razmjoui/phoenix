@@ -11,11 +11,11 @@
     <input autocomplete="off" type = "hidden" name = "post_type" value = "product"/>
     <button title="Submit" type = "submit"
             class = "absolute rtl:right-5 ltr:left-5 ltr:rotate-90 text-[#64748b] dark:text-white size-4">
-        <?= get_svg_code('duotone' , 'magnifying-glass'); ?>
+        <?= razmnixIcon('fontawesome/' . 'duotone' , 'magnifying-glass'); ?>
     </button>
 
     <div x-cloak x-show = "searchBox" class = "absolute rtl:left-5 ltr:right-5 size-5 animate-spin">
-        <?= get_svg_code('duotone' , 'spinner'); ?>
+        <?= razmnixIcon('fontawesome/' . 'duotone' , 'spinner'); ?>
     </div>
 </form>
 
