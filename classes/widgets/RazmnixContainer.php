@@ -15,15 +15,6 @@ use Elementor\Core\Breakpoints\Manager as Breakpoints_Manager;
 use Elementor\Element_Base;
 use Elementor\Embed;
 use Elementor\Group_Control_Background;
-use Elementor\Group_Control_Border;
-use Elementor\Group_Control_Box_Shadow;
-use Elementor\Group_Control_Css_Filter;
-use Elementor\Group_Control_Flex_Container;
-use Elementor\Group_Control_Flex_Item;
-use Elementor\Group_Control_Grid_Container;
-use Elementor\Plugin;
-use Elementor\Shapes;
-use Elementor\Utils;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -78,7 +69,6 @@ class RazmnixContainer extends RazmnixBaseWidget {
 	public function get_icon() {
 		return 'eicon-container';
 	}
-	
 	public function get_keywords() {
 		$keywords = [ 'Container', 'Flex', 'Flexbox', 'Flexbox Container', 'Layout' ];
 
