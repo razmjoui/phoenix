@@ -10,6 +10,9 @@ class ComposerStaticInitf5cb1235d643253974a9d23c57f0a100
         'R' => 
         array (
             'Razm\\' => 5,
+            'RazmS\\' => 6,
+            'RazmI\\' => 6,
+            'RazmE\\' => 6,
         ),
     );
 
@@ -17,6 +20,18 @@ class ComposerStaticInitf5cb1235d643253974a9d23c57f0a100
         'Razm\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
+        ),
+        'RazmS\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes/settings',
+        ),
+        'RazmI\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes/icon',
+        ),
+        'RazmE\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes/elementor',
         ),
     );
 

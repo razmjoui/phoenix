@@ -3,7 +3,7 @@
         'name' => 'razm/phoenix',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5494674d02fe0e8d9f14f6d996a0af10a8623378',
+        'reference' => '13073827d7879df17a1de79832827247c5c32137',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'razm/phoenix' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5494674d02fe0e8d9f14f6d996a0af10a8623378',
+            'reference' => '13073827d7879df17a1de79832827247c5c32137',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

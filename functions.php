@@ -1,6 +1,6 @@
 <?php
 
-use Razm\RazmnixElementorParts;
+use RazmE\RazmnixElementorParts;
 
 defined( 'ABSPATH' ) || exit( 'No Access !!!' );
 
@@ -20,12 +20,12 @@ function defineConstants() {
 
 function includeFiles() {
 	require_once (get_template_directory() . '/vendor/autoload.php');
-	require_once (get_template_directory() . '/inc/codestar-framework.php');
+	require_once (get_template_directory() . '/framework/framework.php');
 	require_once (get_template_directory() . '/classes/RazmnixOptions.php');
-	require_once (get_template_directory() . '/classes/RazmnixElementorParts.php');
+	require_once (get_template_directory() . '/classes/elementor/RazmnixElementorParts.php');
 }
 
-function razmnixIcon( $folder_name, $svg_filename ) {
+function razmnixIcon( $folder_name, $svg_filename ): string {
 	$file_path = RAZMNIX_SVG . "{$folder_name}/{$svg_filename}.svg";
 	if ( ! file_exists( $file_path ) ) {
 		return "Not found";

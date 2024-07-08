@@ -2,6 +2,10 @@
 
 namespace Razm;
 
+use RazmI\RazmnixFontAwesome;
+use RazmI\RazmnixHeroIcon;
+use RazmI\RazmnixPhoenixIcon;
+
 class RazmnixOptionsMainMenu {
 	public function getMainMenu(): array {
 		return

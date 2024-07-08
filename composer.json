@@ -8,7 +8,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "Razm\\": "./classes"
+            "Razm\\": "./classes",
+            "RazmI\\": "./classes/icon",
+            "RazmE\\": "./classes/elementor",
+            "RazmS\\": "./classes/settings"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Razm;
+namespace RazmI;
 
 class RazmnixFlatIcon {
 	public static array $svgs =[];

@@ -14,7 +14,7 @@ if ( ! class_exists( 'CSF_Welcome' ) ) {
 
     public function __construct() {
 
-      if ( CSF::$premium && ( ! CSF::is_active_plugin( 'codestar-framework/codestar-framework.php' ) || apply_filters( 'csf_welcome_page', true ) === false ) ) { return; }
+      if ( CSF::$premium && ( ! CSF::is_active_plugin( 'framework/framework.php' ) || apply_filters( 'csf_welcome_page', true ) === false ) ) { return; }
 
       add_action( 'admin_menu', array( $this, 'add_about_menu' ), 0 );
       add_filter( 'plugin_action_links', array( $this, 'add_plugin_action_links' ), 10, 5 );
@@ -77,7 +77,7 @@ if ( ! class_exists( 'CSF_Welcome' ) ) {
 
     public static function add_plugin_action_links( $links, $plugin_file ) {
 
-      if ( $plugin_file === 'codestar-framework/codestar-framework.php' && ! empty( $links ) ) {
+      if ( $plugin_file === 'framework/framework.php' && ! empty( $links ) ) {
         $links['csf--welcome'] = '<a href="'. esc_url( admin_url( 'tools.php?page=csf-welcome' ) ) .'">Settings</a>';
         if ( ! CSF::$premium ) {
           $links['csf--upgrade'] = '<a href="http://codestarframework.com/">Upgrade</a>';
@@ -90,7 +90,7 @@ if ( ! class_exists( 'CSF_Welcome' ) ) {
 
     public static function add_plugin_row_meta( $links, $plugin_file ) {
 
-      if ( $plugin_file === 'codestar-framework/codestar-framework.php' && ! empty( $links ) ) {
+      if ( $plugin_file === 'framework/framework.php' && ! empty( $links ) ) {
         $links['csf--docs'] = '<a href="http://codestarframework.com/documentation/" target="_blank">Documentation</a>';
       }
 

@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/./classes" isTestSource="false" packagePrefix="Razm\" />
+      <sourceFolder url="file://$MODULE_DIR$/./classes/elementor" isTestSource="false" packagePrefix="RazmE\" />
+      <sourceFolder url="file://$MODULE_DIR$/./classes/icon" isTestSource="false" packagePrefix="RazmI\" />
+      <sourceFolder url="file://$MODULE_DIR$/./classes/settings" isTestSource="false" packagePrefix="RazmS\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />

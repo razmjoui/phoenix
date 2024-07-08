@@ -1,8 +1,9 @@
 <?php
 
-namespace Razm;
+namespace RazmE;
 
 use Elementor\Controls_Manager;
+use Razm\RazmnixGetOptions;
 
 
 class RazmnixLogo extends RazmnixBaseWidget

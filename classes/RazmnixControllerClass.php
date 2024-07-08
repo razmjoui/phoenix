@@ -2,6 +2,8 @@
 
 namespace Razm;
 
+use RazmE\RazmnixElementor;
+
 class RazmnixControllerClass
 {
     public function __construct()

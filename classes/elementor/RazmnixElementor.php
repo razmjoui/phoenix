@@ -1,6 +1,6 @@
 <?php
 
-namespace Razm;
+namespace RazmE;
 
 
 
@@ -18,9 +18,6 @@ class RazmnixElementor {
 		require_once( 'widgets/RazmnixBtn.php' );
 		require_once( 'widgets/RazmnixMenu.php' );
 
-
-		require_once( 'widgets/RazmnixContainer.php' );
-		$widgets_manager->register( new RazmnixContainer() );
 
 
 

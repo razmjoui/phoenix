@@ -1,6 +1,6 @@
 <?php
 
-namespace Razm;
+namespace RazmE;
 
 if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
