@@ -21,12 +21,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class RazmnixContainer extends RazmnixBaseWidget {
-	/*const NAME     = self::CONST . 'Container';
+	const NAME     = self::CONST . 'Container';
 	const DARK     = self::NAME . 'DarkMode';
 	const LIGHT    = self::NAME . 'LightMode';
-	const SECTIONS = ['register_controls'];
+	const SECTIONS = ['register_layout_tab' , 'register_style_tab' , 'register_advanced_tab'];
 	const TITLE    = 'Container';
-	const ICON     = 'eicon-container';*/
+	const ICON     = 'eicon-container';
 
 	private $active_kit;
 
@@ -39,36 +39,7 @@ class RazmnixContainer extends RazmnixBaseWidget {
 
 		$this->active_kit = Plugin::$instance->kits_manager->get_active_kit();
 	}
-	public static function get_type() {
-		return 'container';
-	}
 
-	/**
-	 * Get the element name.
-	 *
-	 * @return string
-	 */
-	public function get_name() {
-		return 'container';
-	}
-
-	/**
-	 * Get the element display name.
-	 *
-	 * @return string
-	 */
-	public function get_title() {
-		return esc_html__( 'Container', 'elementor' );
-	}
-
-	/**
-	 * Get the element display icon.
-	 *
-	 * @return string
-	 */
-	public function get_icon() {
-		return 'eicon-container';
-	}
 	public function get_keywords() {
 		$keywords = [ 'Container', 'Flex', 'Flexbox', 'Flexbox Container', 'Layout' ];
 
@@ -210,16 +181,7 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		</div><?php
 	}
 
-	/**
-	 * Render the Container's shape divider.
-	 * TODO: Copied from `section.php`.
-	 *
-	 * Used to generate the shape dividers HTML.
-	 *
-	 * @param string $side - Shape divider side, used to set the shape key.
-	 *
-	 * @return void
-	 */
+
 	protected function render_shape_divider( $side ) {
 		$settings = $this->get_active_settings();
 		$base_setting_key = "shape_divider_$side";
@@ -241,11 +203,6 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		<?php
 	}
 
-	/**
-	 * Print safe HTML tag for the element based on the element settings.
-	 *
-	 * @return void
-	 */
 	protected function print_html_tag() {
 		$html_tag = $this->get_settings( 'html_tag' );
 
@@ -256,11 +213,7 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		Utils::print_validated_html_tag( $html_tag );
 	}
 
-	/**
-	 * Before rendering the container content. (Print the opening tag, etc.)
-	 *
-	 * @return void
-	 */
+	
 	public function before_render() {
 		$settings = $this->get_settings_for_display();
 		$link = $settings['link'];
@@ -727,11 +680,7 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		$this->end_controls_section();
 	}
 
-	/**
-	 * Register the Container's background overlay controls.
-	 *
-	 * @return void
-	 */
+
 	protected function register_background_overlay_controls() {
 		$this->start_controls_section(
 			'section_background_overlay',
@@ -943,11 +892,6 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		$this->end_controls_section();
 	}
 
-	/**
-	 * Register the Container's border controls.
-	 *
-	 * @return void
-	 */
 	protected function register_border_controls() {
 		$this->start_controls_section(
 			'section_border',
@@ -1280,11 +1224,7 @@ class RazmnixContainer extends RazmnixBaseWidget {
 
 		$this->end_controls_section();
 	}
-	/**
-	 * Register the Container's style tab.
-	 *
-	 * @return void
-	 */
+
 	protected function register_style_tab() {
 		$this->register_background_controls();
 
@@ -1783,16 +1723,6 @@ class RazmnixContainer extends RazmnixBaseWidget {
 		} );
 	}
 
-	/**
-	 * Register the Container's controls.
-	 *
-	 * @return void
-	 */
-	protected function register_controls() {
-		$this->register_layout_tab();
-		$this->register_style_tab();
-		$this->register_advanced_tab();
-	}
 
 	public function on_import( $element ) {
 		return self::slider_to_gaps_converter( $element );

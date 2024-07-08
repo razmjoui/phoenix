@@ -26,7 +26,7 @@
             <!-- /Search -->
 
             <!-- toggleThemes & Cart & notification-->
-            <div class = "lg:flex justify-between gap-x-4 items-center hidden">
+            <div class = "items-center justify-between hidden lg:flex gap-x-4">
                 <!-- toggleThemes -->
                 <div class = "hidden lg:flex">
                     <?= get_template_part('components/other/toggleThemesRoocket') ?>
@@ -56,7 +56,7 @@
 
         <!-- /Menu -->
         <div class = "hidden lg:flex overflow-visible lg:h-auto h-full  items-center justify-center w-auto dark:shadow-lg bg-[#d2d6de] dark:bg-dark-910 mx-9 shadow rounded-b-3xl ">
-            <div class = "razmnixNav relative hidden lg:flex">
+            <div class = "relative hidden razmnixNav lg:flex">
                 <?php
                 wp_nav_menu(
                     [
