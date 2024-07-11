@@ -56,16 +56,24 @@
 
         <!-- /Menu -->
         <div class = "hidden lg:flex overflow-visible lg:h-auto h-full  items-center justify-center w-auto dark:shadow-lg bg-[#d2d6de] dark:bg-dark-910 mx-9 shadow rounded-b-3xl ">
-            <div class = "relative hidden razmnixNav lg:flex">
+
+               <ul class = "relative flex items-center justify-center lg:flex-row flex-col lg:w-auto w-full lg:pt-0 pt-6">
+               <?= get_template_part('components/menu/menuRoocket') ?>
+               </ul>
+
+
+
+
+            <!--<div class = "relative hidden razmnixNav lg:flex">
                 <?php
-                wp_nav_menu(
+/*                wp_nav_menu(
                     [
                         'theme_location' => 'RazmnixMainMenu',
                         'walker'         => new Razm\RazmnixMegaMenuWalker()
                     ]
                 )
-                ?>
-            </div>
+                */?>
+            </div>-->
         </div>
         <!-- /Menu -->
 

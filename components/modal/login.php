@@ -9,7 +9,7 @@
         <!-- /Close Btn -->
 
         <!-- Info Login -->
-        <pre class = "sm:text-lg text-xs text-gray-400 dark:text-gray-300 font-medium text-center "><?= Razm\RazmnixGetOptions::$sloganLogin ?></pre>
+        <pre class = "sm:text-lg text-xs text-gray-400 dark:text-gray-300 font-medium text-center "><?= RazmS\RazmnixSetting::$sloganLogin ?></pre>
         <!-- /Info Login -->
 
         <!-- login by email -->

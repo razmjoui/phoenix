@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsOther {
+class RazmnixSettingsOther {
 public function getOther(): array {
 	return
 	[

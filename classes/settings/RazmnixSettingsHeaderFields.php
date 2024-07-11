@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsHeaderFields {
+class RazmnixSettingsHeaderFields {
 	public function getHeaderFields(): array {
 
 		return [

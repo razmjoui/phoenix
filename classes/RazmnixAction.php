@@ -2,6 +2,8 @@
 
 namespace Razm;
 
+use RazmS\RazmnixSetting;
+
 class RazmnixAction
 {
 
@@ -57,7 +59,7 @@ class RazmnixAction
 
     public function headers()
     {
-        if (RazmnixGetOptions::$headerType == 'elementor') {
+        if ( RazmnixSetting::$headerType == 'elementor') {
             echo get_template_part('templates/header/elementor');
         } else {
             echo get_template_part('templates/header/headers');
@@ -65,7 +67,7 @@ class RazmnixAction
     }
     public function footers()
     {
-        if (RazmnixGetOptions::$footerType == 'elementor') {
+        if ( RazmnixSetting::$footerType == 'elementor') {
             echo get_template_part('templates/footer/elementor');
         } else {
             echo get_template_part('templates/footer/footers');

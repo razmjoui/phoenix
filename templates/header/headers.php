@@ -1,3 +1,3 @@
-<?php use Razm\RazmnixGetOptions; ?>
+<?php use RazmS\RazmnixSetting; ?>
 
-<?= get_template_part('templates/header/' . RazmnixGetOptions::$headerDefault);
+<?= get_template_part( 'templates/header/' . RazmnixSetting::$headerDefault);

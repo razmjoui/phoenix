@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsHeaderLogo {
+class RazmnixSettingsHeaderLogo {
 public function getHeaderLogo(): array {
 	return
 	[

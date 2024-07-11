@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsColor {
+class RazmnixSettingsColor {
 	public function getColor(): array {
 		return
 			[

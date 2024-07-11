@@ -1,6 +1,6 @@
 <?php
 
-namespace RazmE;
+namespace RazmW;
 
 
 class RazmnixMenu extends RazmnixBaseWidget {

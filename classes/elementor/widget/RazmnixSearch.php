@@ -1,9 +1,9 @@
 <?php
 
-namespace RazmE;
+namespace RazmW;
 
 use Elementor\Controls_Manager;
-use Razm\RazmnixGetOptions;
+use RazmS\RazmnixSetting;
 
 
 class RazmnixSearch extends RazmnixBaseWidget
@@ -21,7 +21,7 @@ class RazmnixSearch extends RazmnixBaseWidget
 
         $this->start_section(self::NAME , 'General');
 
-        $this->addText(self::NAME . 'Placeholder' , 'Placeholder Search' , RazmnixGetOptions::$headerSearchPlace);
+        $this->addText(self::NAME . 'Placeholder' , 'Placeholder Search' , RazmnixSetting::$headerSearchPlace);
 
         $this->addControl(Controls_Manager::NUMBER , self::NAME . 'Width' , 'Search Width(%)' , 'input' , 'width' , 100 , 100 , 100 , '%');
         $this->addControl(Controls_Manager::NUMBER , self::NAME . 'PaddingLeft' , 'Search Padding Left(PX)' , 'input' , 'padding-left' , null , null , null , 'px');

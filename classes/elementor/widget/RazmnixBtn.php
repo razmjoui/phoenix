@@ -1,6 +1,6 @@
 <?php
 
-namespace RazmE;
+namespace RazmW;
 
 
 use Elementor\Controls_Manager;

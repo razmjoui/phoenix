@@ -21,7 +21,7 @@ function defineConstants() {
 function includeFiles() {
 	require_once (get_template_directory() . '/vendor/autoload.php');
 	require_once (get_template_directory() . '/framework/framework.php');
-	require_once (get_template_directory() . '/classes/RazmnixOptions.php');
+	require_once ( get_template_directory() . '/classes/settings/RazmnixSettings.php' );
 	require_once (get_template_directory() . '/classes/elementor/RazmnixElementorParts.php');
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsConnections {
+class RazmnixSettingsConnections {
 	public function getConnections(): array {
 		return
 			[

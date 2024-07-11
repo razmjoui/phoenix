@@ -11,6 +11,7 @@
             "Razm\\": "./classes",
             "RazmI\\": "./classes/icon",
             "RazmE\\": "./classes/elementor",
+            "RazmW\\": "./classes/elementor/widget",
             "RazmS\\": "./classes/settings"
         }
     }

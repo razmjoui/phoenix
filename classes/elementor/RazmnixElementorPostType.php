@@ -1,9 +1,9 @@
 <?php
 
-namespace Razm;
+namespace RazmE;
 
 
-class RazmnixPostType
+class RazmnixElementorPostType
 {
 
     public function __construct()

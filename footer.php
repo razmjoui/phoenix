@@ -1,9 +1,9 @@
-<?php use Razm\RazmnixGetOptions; ?>
+<?php use RazmS\RazmnixSetting; ?>
 
 
 
 <!-- Mask -->
-<?= RazmnixGetOptions::$backgroundMaskExtension ? '<div class = "w-full h-screen absolute top-0 right-0 bg-gradient-to-t from-transparent to-white/15 z-[-1]"></div>' :''?>
+<?= RazmnixSetting::$backgroundMaskExtension ? '<div class = "w-full h-screen absolute top-0 right-0 bg-gradient-to-t from-transparent to-white/15 z-[-1]"></div>' :''?>
 <!-- /Mask -->
 
 <!-- Side Menu -->
@@ -12,12 +12,12 @@
 
 
 <!-- Modal  Login -->
-<?= RazmnixGetOptions::$modalLoginExtension ? get_template_part('components/modal/login') :''?>
+<?= RazmnixSetting::$modalLoginExtension ? get_template_part( 'components/modal/login') :''?>
 <!-- /Modal  Login -->
 
 
 <!-- Overlay -->
-<?= RazmnixGetOptions::$modalLoginExtension ? get_template_part('components/other/overlayShow') :''?>
+<?= RazmnixSetting::$modalLoginExtension ? get_template_part( 'components/other/overlayShow') :''?>
 <!-- /Overlay -->
 
 <?php do_action('razmnixTopFooter'); ?>
@@ -26,9 +26,9 @@
 
 <style>
     :root {
-        --headerLogoWidth: <?= RazmnixGetOptions::$headerLogoWidth?? '208' ?>px;
-        --headerLogoWidthTablet: <?= RazmnixGetOptions::$headerLogoWidthTablet?? '160' ?>px;
-        --headerLogoWidthMobile: <?= RazmnixGetOptions::$headerLogoWidthMobile?? '96' ?>px;
+        --headerLogoWidth: <?= RazmnixSetting::$headerLogoWidth?? '208' ?>px;
+        --headerLogoWidthTablet: <?= RazmnixSetting::$headerLogoWidthTablet?? '160' ?>px;
+        --headerLogoWidthMobile: <?= RazmnixSetting::$headerLogoWidthMobile?? '96' ?>px;
     }
 
 </style>

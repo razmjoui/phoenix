@@ -6,7 +6,7 @@
 
     <input x-data = "" @click = "overlayShow = true; searchBox = true" name = "s"
            type = "text"
-           placeholder = "<?= Razm\RazmnixGetOptions::$headerSearchPlace ?>"
+           placeholder = "<?= RazmS\RazmnixSetting::$headerSearchPlace ?>"
            class = "w-full py-4 bg-[#eceeef] rounded-xl rtl:pr-12 ltr:pl-12 dark:text-white dark:bg-[#1b314c] placeholder-[#64748b] dark:placeholder-white text-xs border-none">
     <input autocomplete="off" type = "hidden" name = "post_type" value = "product"/>
     <button title="Submit" type = "submit"

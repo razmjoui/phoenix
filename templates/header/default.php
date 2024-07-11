@@ -1,5 +1,5 @@
-<?php use Razm\RazmnixGetOptions;
-use Razm\RazmnixMegaMenuWalker;
+<?php use Razm\RazmnixMegaMenuWalker;
+use RazmS\RazmnixSetting;
 
 ?>
 <header class = "shadow-lg">
@@ -34,7 +34,7 @@ use Razm\RazmnixMegaMenuWalker;
             <!-- Phone Section -->
             <section class = "hidden lg:flex items-center justify-between gap-x-4 w-auto px-4 py-4 text-gray-700 dark:text-white ">
                 <div class = "flex flex-col">
-                    <span class = "text-lg font-medium"><?= RazmnixGetOptions::$headerPhone ?></span>
+                    <span class = "text-lg font-medium"><?= RazmnixSetting::$headerPhone ?></span>
                     <span class = "text-sm">با ما در ارتباط باشید</span>
                 </div>
                 <div class = "size-7"><?= razmnixIcon('fontawesome/' . 'duotone', 'phone-rotary') ?></div>
@@ -43,7 +43,7 @@ use Razm\RazmnixMegaMenuWalker;
 
             <!-- User Section -->
             <section>
-                <a <?= is_user_logged_in() ? 'href = "' . RAZMNIX_ACCOUNT_URL . '"' : home_url(RazmnixGetOptions::$loginUrl) ?>
+                <a <?= is_user_logged_in() ? 'href = "' . RAZMNIX_ACCOUNT_URL . '"' : home_url( RazmnixSetting::$loginUrl) ?>
                         class = "flex items-center justify-between gap-x-2 shadow-md transition-all duration-300 ease-in-out w-max px-4 py-4 rounded-lg text-gray-700 hover:text-white bg-white hover:bg-gray-500">
                     <span class = "size-5"><?= razmnixIcon('fontawesome/' . 'duotone', 'user') ?></span>
                     <span>حساب کاربری</span>

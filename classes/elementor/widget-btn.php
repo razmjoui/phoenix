@@ -1,6 +1,10 @@
 <?php
-namespace Razm;
+namespace RazmE;
 
+
+use Razm\Controls_Manager;
+use Razm\Icons_Manager;
+use Razm\Widget_Base;
 
 class Razmnix_Widget_Btn extends Widget_Base
 {

@@ -10,6 +10,7 @@ class ComposerStaticInitf5cb1235d643253974a9d23c57f0a100
         'R' => 
         array (
             'Razm\\' => 5,
+            'RazmW\\' => 6,
             'RazmS\\' => 6,
             'RazmI\\' => 6,
             'RazmE\\' => 6,
@@ -20,6 +21,10 @@ class ComposerStaticInitf5cb1235d643253974a9d23c57f0a100
         'Razm\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
+        ),
+        'RazmW\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes/elementor/widget',
         ),
         'RazmS\\' => 
         array (

@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsFooterFields {
+class RazmnixSettingsFooterFields {
 
 
 	public function getFooterFields(): array {
@@ -27,7 +27,7 @@ class RazmnixOptionsFooterFields {
 				'dependency' => [ 'footerType', '==', 'elementor' ],
 				'title'      => esc_html__( 'footer select', 'razmnix' ),
 				'desc'       => esc_html__( 'Select footer', 'razmnix' ),
-				'options'    => RazmnixOptions::$footers
+				'options'    => RazmnixSettings::$footers
 			],
 			// select footer Default
 			[
@@ -36,7 +36,7 @@ class RazmnixOptionsFooterFields {
 				'dependency' => [ 'footerType', '==', 'default' ],
 				'title'      => esc_html__( 'footer select', 'razmnix' ),
 				'desc'       => esc_html__( 'Select footer', 'razmnix' ),
-				'options'    => RazmnixOptions::$defaultFooters
+				'options'    => RazmnixSettings::$defaultFooters
 			],
 		];
 	}

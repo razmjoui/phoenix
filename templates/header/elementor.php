@@ -1,3 +1,3 @@
 <?php
 
-echo RazmnixElementorParts( 'header', Razm\RazmnixGetOptions::$headerElementor);
+echo RazmnixElementorParts( 'header', RazmS\RazmnixSetting::$headerElementor);

@@ -4,186 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="">
+    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="1.0.0.2">
+      <change afterPath="$PROJECT_DIR$/assets/js/elementor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/menu/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phoenix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phoenix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixBaseWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixBaseWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/phoenix/academyCircle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/phoenix/academyCircle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixAction.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/RazmnixControllerClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixControllerClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixDefaultWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixDefaultWidget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixElementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixElementorParts.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementorParts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixFlatIcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/icon/RazmnixFlatIcon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixFontAwesome.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/icon/RazmnixFontAwesome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixHeroIcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/icon/RazmnixHeroIcon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsMainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixOptionsMainMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsSideMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixOptionsSideMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsUserMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixOptionsUserMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixPhoenixIcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/icon/RazmnixPhoenixIcon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixBtn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixCart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixLogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixLogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixThemesMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixThemesMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widgets/RazmnixUserBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixUserBtn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixEnqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixEnqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixGetOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsColor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsColor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsConnections.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsConnections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsElementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsElementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsExtensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsExtensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsFooterFields.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsFooterFields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderFields.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderFields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderLogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderLogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderType.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsMainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsMainMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsOther.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsOther.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsSideMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsSideMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsTypography.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsTypography.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsUserMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsUserMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/RazmnixPostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementorPostType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixBaseWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixBaseWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixBtn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixCart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixElementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixLogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixLogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixThemesMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixThemesMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixUserBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixUserBtn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/widget-btn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget-btn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/btnUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/btnUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/loginBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/loginBtn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/logo/logo.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo/logo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/menu/menuRoocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/menu/menuRoocket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modal/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/modal/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/other/overlayShow.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/other/overlayShow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search/searchRoocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/searchRoocket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/side/roocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/side/roocket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/css/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/css/style-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/css/style-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/css/style-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/images/checkerboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/images/checkerboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/images/wp-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/images/wp-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/images/wp-plugin-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/images/wp-plugin-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/js/gutenberg.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/js/gutenberg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/js/plugins.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/js/plugins.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_chosen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_chosen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_customizer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_customizer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_fields.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_fields.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_flatpickr.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_flatpickr.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_helper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_navmenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_navmenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_taxonomy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_taxonomy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_themes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_welcome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/partials/_widget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/partials/_widget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/style-rtl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/style-rtl.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/framework/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/abstract.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/abstract.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/admin-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/admin-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/comment-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/comment-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/customize-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/customize-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/fields.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/fields.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/metabox-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/metabox-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/nav-menu-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/nav-menu-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/profile-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/profile-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/setup.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/setup.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/shortcode-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/shortcode-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/taxonomy-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/taxonomy-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/classes/widget-options.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/classes/widget-options.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/codestar-framework.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/framework.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/accordion/accordion.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/accordion/accordion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/background/background.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/background/background.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/backup/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/backup/backup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/border/border.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/border/border.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/button_set/button_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/button_set/button_set.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/callback/callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/callback/callback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/checkbox/checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/checkbox/checkbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/code_editor/code_editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/code_editor/code_editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/color/color.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/color/color.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/color_group/color_group.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/color_group/color_group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/content/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/content/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/date/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/date/date.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/datetime/datetime.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/datetime/datetime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/dimensions/dimensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/dimensions/dimensions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/fieldset/fieldset.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/fieldset/fieldset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/gallery/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/gallery/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/group/group.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/group/group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/heading/heading.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/heading/heading.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/icon/fa4-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/icon/fa4-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/icon/fa5-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/icon/fa5-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/icon/icon.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/icon/icon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/image_select/image_select.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/image_select/image_select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/link/link.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/link/link.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/link_color/link_color.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/link_color/link_color.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/map/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/map/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/media/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/media/media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/notice/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/notice/notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/number/number.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/number/number.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/palette/palette.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/palette/palette.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/radio/radio.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/radio/radio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/repeater/repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/repeater/repeater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/select/select.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/select/select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/slider/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/slider/slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/sortable/sortable.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/sortable/sortable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/sorter/sorter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/sorter/sorter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/spacing/spacing.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/spacing/spacing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/spinner/spinner.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/spinner/spinner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/subheading/subheading.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/subheading/subheading.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/submessage/submessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/submessage/submessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/switcher/switcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/switcher/switcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/tabbed/tabbed.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/tabbed/tabbed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/text/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/text/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/textarea/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/textarea/textarea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/typography/google-fonts.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/typography/google-fonts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/typography/typography.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/typography/typography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/upload/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/upload/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/fields/wp_editor/wp_editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/fields/wp_editor/wp_editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/customize.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/customize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/sanitize.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/sanitize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions/walker.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/functions/walker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ar.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ar.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ar.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ar.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/az.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/az.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/az.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/az.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/bn_BD.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/bn_BD.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/bn_BD.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/bn_BD.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/de_DE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/de_DE.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/de_DE.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/de_DE.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/default.pot" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/default.pot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/es_ES.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/es_ES.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/hi_IN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/hi_IN.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/hi_IN.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/hi_IN.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/id_ID.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/id_ID.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/id_ID.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/id_ID.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/it_IT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/it_IT.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/it_IT.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/it_IT.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ja.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ja.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ja.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ja.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ko_KR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ko_KR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ko_KR.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ko_KR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ne_NP.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ne_NP.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ne_NP.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ne_NP.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/nl_NL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/nl_NL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/nl_NL.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/nl_NL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/pl_PL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/pl_PL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/pl_PL.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/pl_PL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/pt_PT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/pt_PT.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/pt_PT.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/pt_PT.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ru_RU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/ru_RU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/th.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/th.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/th.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/th.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/tr_TR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/tr_TR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/tr_TR.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/tr_TR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/vi.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/vi.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/vi.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/vi.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/zh_CN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/zh_CN.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/languages/zh_CN.po" beforeDir="false" afterPath="$PROJECT_DIR$/framework/languages/zh_CN.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/admin-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/admin-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/comment-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/comment-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/customize-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/customize-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/metabox-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/metabox-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/nav-menu-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/nav-menu-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/profile-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/profile-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/shortcode-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/shortcode-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/taxonomy-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/taxonomy-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/samples/widget-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/samples/widget-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/documentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/documentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/free-vs-premium.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/free-vs-premium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/quickstart.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/quickstart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/relnotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/relnotes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/support.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/support.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/views/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/views/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/elementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer/footers.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/footers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/elementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header/headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/headers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header/roocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/roocket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
@@ -201,6 +77,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -346,27 +224,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.14.0",
-    "javascript.nodejs.core.library.typings.version": "20.14.10",
-    "last_opened_file_path": "C:/Users/razm/AppData/Roaming/Local/lightning-services/php-7.4.30+6/bin/win64/php.exe",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.tailwind:watch (1).executor": "Run",
-    "npm.tailwind:watch.executor": "Run",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "settings.editor.splitter.proportion": "0.13438967",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/razm/Local Sites/wpdev/app/public/wp-content/plugins/elementor&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.tailwind:watch (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.tailwind:watch.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.13438967&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\razm\Local Sites\wpdev\app\public\wp-content\themes\phoenix\classes" />
@@ -410,8 +290,25 @@
       <option name="presentableId" value="Default" />
       <updated>1720427957291</updated>
       <workItem from="1720427958681" duration="775000" />
-      <workItem from="1720443524423" duration="3431000" />
+      <workItem from="1720443524423" duration="25643000" />
+      <workItem from="1720505634435" duration="10585000" />
+      <workItem from="1720519039996" duration="584000" />
+      <workItem from="1720590245050" duration="8275000" />
+      <workItem from="1720616305484" duration="2175000" />
+      <workItem from="1720619789708" duration="1650000" />
+      <workItem from="1720624062291" duration="4216000" />
+      <workItem from="1720630054206" duration="1670000" />
+      <workItem from="1720684936239" duration="1152000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.0.2">
+      <option name="closed" value="true" />
+      <created>1720447456610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720447456610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +330,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.2" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\razm\Local Sites\wpdev\app\wp</wordpressPath>

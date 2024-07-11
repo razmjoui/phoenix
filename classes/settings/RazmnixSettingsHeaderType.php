@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsHeaderType {
+class RazmnixSettingsHeaderType {
 public function getHeaderType(): array {
 	return
 	[
@@ -27,7 +27,7 @@ public function getHeaderType(): array {
 			'dependency' => [ 'headerType', '==', 'elementor' ],
 			'title'      => esc_html__( 'header select', 'razmnix' ),
 			'help'       => esc_html__( 'Select header', 'razmnix' ),
-			'options'    => RazmnixOptions::$headers
+			'options'    => RazmnixSettings::$headers
 		],
 		// select header Default
 		[
@@ -38,7 +38,7 @@ public function getHeaderType(): array {
 			'dependency' => [ 'headerType', '==', 'default' ],
 			'title'      => esc_html__( 'header select', 'razmnix' ),
 			'help'       => esc_html__( 'Select header', 'razmnix' ),
-			'options'    => RazmnixOptions::$defaultHeaders
+			'options'    => RazmnixSettings::$defaultHeaders
 		],
 	];
 }

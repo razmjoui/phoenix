@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsExtensions {
+class RazmnixSettingsExtensions {
 	public function getExtensions(): array {
 		return [
 			//Dark Mode

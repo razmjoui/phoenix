@@ -1,9 +1,9 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
 
-class RazmnixGetOptions
+class RazmnixSetting
 {
 
     private function startOptions(): void {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
 use RazmI\RazmnixFontAwesome;
 use RazmI\RazmnixHeroIcon;
 use RazmI\RazmnixPhoenixIcon;
 
-class RazmnixOptionsUserMenu {
+class RazmnixSettingsUserMenu {
 
 	public function getUserMenu(): array {
 		return [

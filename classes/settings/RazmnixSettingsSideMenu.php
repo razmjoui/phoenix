@@ -1,20 +1,20 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
 use RazmI\RazmnixFontAwesome;
 use RazmI\RazmnixHeroIcon;
 use RazmI\RazmnixPhoenixIcon;
 
-class RazmnixOptionsMainMenu {
-	public function getMainMenu(): array {
+class RazmnixSettingsSideMenu {
+	public function getSideMenu(): array {
 		return
 			[
-				// Main Menu
+				// Side Menu
 				[
-					'id'     => 'mainMenus',
+					'id'     => 'sideMenus',
 					'type'   => 'group',
-					'title'  => esc_html__( 'Main Menu', 'razmnix' ),
+					'title'  => esc_html__( 'Side Menu', 'razmnix' ),
 					'fields' => [
 						// Menu Name
 						[
@@ -28,8 +28,6 @@ class RazmnixOptionsMainMenu {
 							'type'  => 'link',
 							'title' => esc_html__( 'Menu Link', 'razmnix' ),
 						],
-
-
 						// Menu Icon
 						[
 							'id'      => 'MenuIcon',
@@ -50,13 +48,14 @@ class RazmnixOptionsMainMenu {
 							'title'      => esc_html__( 'Icon Base', 'razmnix' ),
 							'dependency' => [ 'MenuIcon', '==', true ],
 							'options'    => [
-								''            => esc_html__( 'None', 'razmnix' ),
+								''     => esc_html__( 'None', 'razmnix' ),
 								'phoenix'     => esc_html__( 'Phoenix', 'razmnix' ),
 								'fontawesome' => esc_html__( 'Font Awesome', 'razmnix' ),
 								'heroicons'   => esc_html__( 'Hero Icons', 'razmnix' ),
 							],
 
 						],
+
 						//  Menu Icon Name fontawesome
 						[
 							'id'         => 'MenuIconName',
@@ -90,6 +89,7 @@ class RazmnixOptionsMainMenu {
 							'options'    => RazmnixHeroIcon::$svgs,
 							'ajax'       => true,
 						],
+
 						// Menu Icon Type fontawesome
 						[
 							'id'         => 'MenuIconType',
@@ -112,6 +112,7 @@ class RazmnixOptionsMainMenu {
 							'chosen'     => true,
 							'ajax'       => true,
 						],
+
 						// Menu Icon Type heroicons
 						[
 							'id'         => 'MenuIconTypeH',
@@ -129,8 +130,6 @@ class RazmnixOptionsMainMenu {
 							'ajax'       => true,
 						],
 
-
-
 						// SubMenu
 						[
 							'id'      => 'SubMenuO',
@@ -143,17 +142,6 @@ class RazmnixOptionsMainMenu {
 							'help'    => esc_html__( 'You can add a submenu by activating the submenu. Note that the menu link code will be disabled', 'razmnix' ),
 							'default' => false
 						],
-						// SubMenu
-						[
-							'id'      => 'SubMenuType',
-							'type'    => 'button_set',
-							'options' => [
-								true  => esc_html__( 'Enable', 'razmnix' ),
-								false => esc_html__( 'Disable', 'razmnix' ),
-							],
-							'title'   => esc_html__( 'SubMenu Type', 'razmnix' ),
-							'default' => false
-						],
 
 						//  SubMenu
 						[
@@ -162,19 +150,19 @@ class RazmnixOptionsMainMenu {
 							'dependency' => [ 'SubMenuO', '==', true ],
 							'title'      => esc_html__( 'SubMenus', 'razmnix' ),
 							'fields'     => [
-								//Main SubMenu Name
+								// SubMenu Name
 								[
 									'id'    => 'SubMenu',
 									'type'  => 'text',
 									'title' => esc_html__( 'SubMenu Name', 'razmnix' ),
 								],
-								//Main SubMenu Link
+								// SubMenu Link
 								[
 									'id'    => 'SubMenuLink',
 									'type'  => 'link',
 									'title' => esc_html__( 'SubMenu Link', 'razmnix' ),
 								],
-								//Main SubMenu Icon
+								// SubMenu Icon
 								[
 									'id'      => 'SubMenuIcon',
 									'type'    => 'button_set',
@@ -185,14 +173,14 @@ class RazmnixOptionsMainMenu {
 									'title'   => esc_html__( 'SubMenu Icon', 'razmnix' ),
 									'default' => false
 								],
-								//Main SubMenu Icon Base
+								// SubMenu Icon Base
 								[
 									'id'         => 'SubMenuIconBase',
 									'type'       => 'select',
 									'title'      => esc_html__( 'Icon Base', 'razmnix' ),
 									'dependency' => [ 'SubMenuIcon', '==', true ],
 									'options'    => [
-										''            => esc_html__( 'None', 'razmnix' ),
+										''     => esc_html__( 'None', 'razmnix' ),
 										'phoenix'     => esc_html__( 'Phoenix', 'razmnix' ),
 										'fontawesome' => esc_html__( 'Font Awesome', 'razmnix' ),
 										'heroicons'   => esc_html__( 'Hero Icons', 'razmnix' ),
@@ -202,7 +190,7 @@ class RazmnixOptionsMainMenu {
 
 								],
 
-								// Main SubMenu Icon Name fontawesome
+								//  SubMenu Icon Name fontawesome
 								[
 									'id'         => 'SubMenuIconName',
 									'type'       => 'select',
@@ -213,7 +201,7 @@ class RazmnixOptionsMainMenu {
 									'options'    => RazmnixFontAwesome::$svgs,
 									'ajax'       => true,
 								],
-								// Main SubMenu Icon Name phoenix
+								//  SubMenu Icon Name phoenix
 								[
 									'id'         => 'SubMenuIconNameP',
 									'type'       => 'select',
@@ -224,7 +212,7 @@ class RazmnixOptionsMainMenu {
 									'options'    => RazmnixPhoenixIcon::$svgs,
 									'ajax'       => true,
 								],
-								// Main SubMenu Icon Name heroicons
+								//  SubMenu Icon Name heroicons
 								[
 									'id'         => 'SubMenuIconNameH',
 									'type'       => 'select',
@@ -236,7 +224,7 @@ class RazmnixOptionsMainMenu {
 									'ajax'       => true,
 								],
 
-								//Main SubMenu Icon Type fontawesome
+								// SubMenu Icon Type fontawesome
 								[
 									'id'         => 'SubMenuIconType',
 									'type'       => 'select',
@@ -259,7 +247,7 @@ class RazmnixOptionsMainMenu {
 									'ajax'       => true,
 								],
 
-								//Main SubMenu Icon Type heroicons
+								// SubMenu Icon Type heroicons
 								[
 									'id'         => 'SubMenuIconTypeH',
 									'type'       => 'select',

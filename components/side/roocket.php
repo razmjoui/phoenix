@@ -60,20 +60,21 @@
 			$sideMenus = get_option( 'razmnix_settings' )['sideMenus'] ?? [];
 			$iconType  = '';
 			$iconName  = '';
-			foreach ( $sideMenus as $sideMenu ):
-				if ( $sideMenu['sideMenuIcon'] ) {
-					switch ( $sideMenu['sideMenuIconBase'] ) {
+			if (is_array($sideMenus) && !empty($sideMenus)):
+			foreach ( $Menus as $Menu ):
+				if ( $Menu['MenuIcon'] ) {
+					switch ( $Menu['MenuIconBase'] ) {
 						case 'fontawesome':
-							$iconType = $sideMenu['sideMenuIconBase'] . '/' . $sideMenu['sideMenuIconType'];
-							$iconName = $sideMenu['sideMenuIconName'];
+							$iconType = $Menu['MenuIconBase'] . '/' . $Menu['MenuIconType'];
+							$iconName = $Menu['MenuIconName'];
 							break;
 						case 'heroicons':
-							$iconType = $sideMenu['sideMenuIconBase'] . '/' . $sideMenu['sideMenuIconTypeH'];
-							$iconName = $sideMenu['sideMenuIconNameH'];
+							$iconType = $Menu['MenuIconBase'] . '/' . $Menu['MenuIconTypeH'];
+							$iconName = $Menu['MenuIconNameH'];
 							break;
 						case 'phoenix':
-							$iconType = $sideMenu['sideMenuIconBase'];
-							$iconName = $sideMenu['sideMenuIconNameP'];
+							$iconType = $Menu['MenuIconBase'];
+							$iconName = $Menu['MenuIconNameP'];
 							break;
 
 					}
@@ -81,65 +82,54 @@
 				?>
                 <li x-data = "{ isOpen: false }" @click = "isOpen = !isOpen"
                     class = "relative flex items-start justify-center w-full flex-col hover:bg-[#eceeef] dark:hover:bg-[#1b314c] text-[#334155] dark:text-white rounded-lg">
-                    <a <?php if ( !$sideMenu['sideSubMenuO'] ): ?> href = "<?= esc_url( $sideMenu['sideMenuLink']['url'] ) ?>" target = "<?= esc_url( $sideMenu['sideMenuLink']['target'] ) ?>"
-                       title = "<?= esc_url( $sideMenu['sideMenuLink']['text'] ) ?> <?php endif; ?>"
-                       class = " flex gap-x-4 items-center relative justify-start cursor-pointer pl-4 pr-2.5 text-lg font-medium py-4 w-full  transition-all">
-						<?php if ( $sideMenu['sideMenuIcon'] ): ?><span class = "size-6"><?= razmnixIcon( esc_html( $iconType ), esc_html( $iconName ) ) ?></span> <?php endif; ?>
-                        <span><?= esc_html( $sideMenu['sideMenu'] ); ?></span>
-	                    <?php if ( $sideMenu['sideSubMenuO'] ): ?>
-                        <span x-show = "!isOpen" class = "size-4"><?= razmnixIcon( 'fontawesome/' . 'solid', 'plus' ) ?></span>
-                        <span x-show = "isOpen" class = "size-4"><?= razmnixIcon( 'fontawesome/' . 'solid', 'minus' ) ?></span>
-                        <?php endif; ?>
+                    <a <?php if ( ! $Menu['SubMenuO'] ): ?> href = "<?= esc_url( $Menu['MenuLink']['url'] ) ?>" target = "<?= esc_url( $Menu['MenuLink']['target'] ) ?>"
+                                                            title = "<?= esc_url( $Menu['MenuLink']['text'] ) ?> <?php endif; ?>"
+                                                            class = " flex gap-x-4 items-center relative justify-start cursor-pointer pl-4 pr-2.5 text-lg font-medium py-4 w-full  transition-all">
+						<?php if ( $Menu['MenuIcon'] ): ?><span class = "size-6"><?= razmnixIcon( esc_html( $iconType ), esc_html( $iconName ) ) ?></span> <?php endif; ?>
+                        <span><?= esc_html( $Menu['Menu'] ); ?></span>
+						<?php if ( $Menu['SubMenuO'] ): ?>
+                            <span x-show = "!isOpen" class = "size-4"><?= razmnixIcon( 'fontawesome/' . 'solid', 'plus' ) ?></span>
+                            <span x-show = "isOpen" class = "size-4"><?= razmnixIcon( 'fontawesome/' . 'solid', 'minus' ) ?></span>
+						<?php endif; ?>
                     </a>
-					<?php if ( $sideMenu['sideSubMenuO'] ): ?>
-                      <ul x-show = "isOpen" class = "relative flex flex-col items-start justify-center  rounded-b-lg  w-full px-6 pb-2">
+					<?php if ( $Menu['SubMenuO'] ): ?>
+                        <ul x-show = "isOpen" class = "relative flex flex-col items-start justify-center  rounded-b-lg  w-full px-6 pb-2">
 							<?php
-							$sideSubMenus = $sideMenu['sideSubMenus'];
-							$iconTypeSub  = '';
-							$iconNameSub  = ''; ?>
-							<?php foreach ( $sideSubMenus as $sideSubMenu ): ?>
-								<?php if ( $sideSubMenu['sideSubMenuIcon'] ) {
-									switch ( $sideSubMenu['sideSubMenuIconBase'] ) {
+							$SubMenus    = $Menu['SubMenus'];
+							$iconTypeSub = '';
+							$iconNameSub = ''; ?>
+							<?php foreach ( $SubMenus as $SubMenu ): ?>
+								<?php if ( $SubMenu['SubMenuIcon'] ) {
+									switch ( $SubMenu['SubMenuIconBase'] ) {
 										case 'fontawesome':
-											$iconTypeSub = $sideSubMenu['sideSubMenuIconBase'] . '/' . $sideSubMenu['sideSubMenuIconType'];
-											$iconNameSub = $sideSubMenu['sideSubMenuIconName'];
+											$iconTypeSub = $SubMenu['SubMenuIconBase'] . '/' . $SubMenu['SubMenuIconType'];
+											$iconNameSub = $SubMenu['SubMenuIconName'];
 											break;
 										case 'heroicons':
-											$iconTypeSub = $sideSubMenu['sideSubMenuIconBase'] . '/' . $sideSubMenu['sideSubMenuIconTypeH'];
-											$iconNameSub = $sideSubMenu['sideSubMenuIconNameH'];
+											$iconTypeSub = $SubMenu['SubMenuIconBase'] . '/' . $SubMenu['SubMenuIconTypeH'];
+											$iconNameSub = $SubMenu['SubMenuIconNameH'];
 											break;
 										case 'phoenix':
-											$iconType    = $sideSubMenu['sideSubMenuIconBase'];
-											$iconNameSub = $sideSubMenu['sideSubMenuIconNameP'];
+											$iconTypeSub = $SubMenu['SubMenuIconBase'];
+											$iconNameSub = $SubMenu['SubMenuIconNameP'];
 											break;
 									}
 								} ?>
                                 <li class = "flex group items-start justify-center w-full flex-col hover:bg-[#eceeef] dark:hover:bg-[#1b314c] text-[#334155] dark:text-white rounded-lg">
-                                    <a href = "<?= esc_url( $sideSubMenu['sideSubMenuLink']['url'] ) ?>" target = "<?= esc_url( $sideSubMenu['sideSubMenuLink']['target'] ) ?>"
-                                       title = "<?= esc_url( $sideSubMenu['sideSubMenuLink']['text'] ) ?>"
+                                    <a href = "<?= esc_url( $SubMenu['SubMenuLink']['url'] ) ?>" target = "<?= esc_url( $SubMenu['SubMenuLink']['target'] ) ?>"
+                                       title = "<?= esc_url( $SubMenu['SubMenuLink']['text'] ) ?>"
                                        class = " flex gap-x-4 items-center relative justify-start cursor-pointer pl-4 pr-2.5 text-lg font-medium py-3 w-full  transition-all">
-										<?php if ( $sideSubMenu['sideSubMenuIcon'] ): ?><span
+										<?php if ( $SubMenu['SubMenuIcon'] ): ?><span
                                                 class = "size-4"><?= razmnixIcon( esc_html( $iconTypeSub ), esc_html( $iconNameSub ) ) ?></span> <?php endif; ?>
-                                        <span><?= esc_html( $sideSubMenu['sideSubMenu'] ); ?></span>
+                                        <span><?= esc_html( $SubMenu['SubMenu'] ); ?></span>
                                     </a>
                                 </li>
 							<?php endforeach; ?>
                         </ul>
 					<?php endif; ?>
                 </li>
-			<?php endforeach; ?>
+			<?php endforeach;  endif;?>
         </ul>
-
-
-        <!--<div class = "razmnixNavSide">
-            <?php
-		/*            wp_nav_menu(
-						[
-							'theme_location' => 'RazmnixMobileMenu',
-						]
-					)
-					*/ ?>
-        </div>-->
     </div>
     <!-- /Menu -->
     <!-- /Footer Header Side -->

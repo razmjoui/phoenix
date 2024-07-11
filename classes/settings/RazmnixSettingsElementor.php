@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsElementor {
+class RazmnixSettingsElementor {
 	public function getElementor(): array {
 		return [
 			//Dark Mode Element

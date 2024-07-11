@@ -1,40 +1,41 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
 
 use CSF;
 
-class RazmnixOptions {
+class RazmnixSettings {
 	private function createSections(): array {
 		return [
 			$this->createSection( 'general', esc_html__( 'general', 'razmnix' ) ),
-			$this->createSubSection( 'general', esc_html__( 'Extensions', 'razmnix' ), ( new RazmnixOptionsExtensions() )->getExtensions() ),
-			$this->createSubSection( 'general', esc_html__( 'Elementor', 'razmnix' ), ( new RazmnixOptionsElementor() )->getElementor() ),
-			$this->createSubSection( 'general', esc_html__( 'connections', 'razmnix' ), ( new RazmnixOptionsConnections() )->getConnections() ),
+			$this->createSubSection( 'general', esc_html__( 'Extensions', 'razmnix' ), ( new RazmnixSettingsExtensions() )->getExtensions() ),
+			$this->createSubSection( 'general', esc_html__( 'Elementor', 'razmnix' ), ( new RazmnixSettingsElementor() )->getElementor() ),
+			$this->createSubSection( 'general', esc_html__( 'connections', 'razmnix' ), ( new RazmnixSettingsConnections() )->getConnections() ),
 
 			$this->createSection( 'header', esc_html__( 'header', 'razmnix' ) ),
-			$this->createSubSection( 'header', esc_html__( 'Header Type', 'razmnix' ), ( new RazmnixOptionsHeaderType() )->getHeaderType() ),
-			$this->createSubSection( 'header', esc_html__( 'Header Logo', 'razmnix' ), ( new RazmnixOptionsHeaderLogo() )->getHeaderLogo() ),
-			$this->createSubSection( 'header', esc_html__( 'Header Options', 'razmnix' ), ( new RazmnixOptionsHeaderFields() )->getHeaderFields() ),
+			$this->createSubSection( 'header', esc_html__( 'Header Type', 'razmnix' ), ( new RazmnixSettingsHeaderType() )->getHeaderType() ),
+			$this->createSubSection( 'header', esc_html__( 'Header Logo', 'razmnix' ), ( new RazmnixSettingsHeaderLogo() )->getHeaderLogo() ),
+			$this->createSubSection( 'header', esc_html__( 'Header Options', 'razmnix' ), ( new RazmnixSettingsHeaderFields() )->getHeaderFields() ),
 
 
 			$this->createSection( 'menus', esc_html__( 'menus', 'razmnix' ) ),
-			$this->createSubSection( 'menus', esc_html__( 'user menu', 'razmnix' ), ( new RazmnixOptionsUserMenu() )->getUserMenu() ),
-			$this->createSubSection( 'menus', esc_html__( 'side menu', 'razmnix' ), ( new RazmnixOptionsSideMenu() )->getSideMenu() ),
-			$this->createSubSection( 'menus', esc_html__( 'main menu', 'razmnix' ), ( new RazmnixOptionsMainMenu() )->getMainMenu() ),
+			$this->createSubSection( 'menus', esc_html__( 'user menu', 'razmnix' ), ( new RazmnixSettingsUserMenu() )->getUserMenu() ),
+			$this->createSubSection( 'menus', esc_html__( 'side menu', 'razmnix' ), ( new RazmnixSettingsSideMenu() )->getSideMenu() ),
+			$this->createSubSection( 'menus', esc_html__( 'main menu', 'razmnix' ), ( new RazmnixSettingsMainMenu() )->getMainMenu() ),
+			$this->createSubSection( 'menus', esc_html__( 'category', 'razmnix' ), ( new RazmnixSettingsCategory() )->getCategory() ),
 
 
 			$this->createSection( 'footer', esc_html__( 'footer', 'razmnix' ) ),
-			$this->createSubSection( 'footer', esc_html__( 'general', 'razmnix' ), ( new RazmnixOptionsFooterFields() )->getFooterFields() ),
+			$this->createSubSection( 'footer', esc_html__( 'general', 'razmnix' ), ( new RazmnixSettingsFooterFields() )->getFooterFields() ),
 
 
 			$this->createSection( 'style', esc_html__( 'Style', 'razmnix' ) ),
-			$this->createSubSection( 'style', esc_html__( 'Color', 'razmnix' ), ( new RazmnixOptionsColor() )->getColor() ),
-			$this->createSubSection( 'style', esc_html__( 'Typography', 'razmnix' ), ( new RazmnixOptionsTypography() )->getTypography() ),
+			$this->createSubSection( 'style', esc_html__( 'Color', 'razmnix' ), ( new RazmnixSettingsColor() )->getColor() ),
+			$this->createSubSection( 'style', esc_html__( 'Typography', 'razmnix' ), ( new RazmnixSettingsTypography() )->getTypography() ),
 
 			$this->createSection( 'other', esc_html__( 'Other', 'razmnix' ) ),
-			$this->createSubSection( 'other', esc_html__( 'Other', 'razmnix' ), ( new RazmnixOptionsOther() )->getOther() ),
+			$this->createSubSection( 'other', esc_html__( 'Other', 'razmnix' ), ( new RazmnixSettingsOther() )->getOther() ),
 
 
 		];
@@ -133,4 +134,4 @@ class RazmnixOptions {
 
 }
 
-RazmnixOptions::init();
+RazmnixSettings::init();

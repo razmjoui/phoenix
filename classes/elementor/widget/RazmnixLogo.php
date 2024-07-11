@@ -1,9 +1,9 @@
 <?php
 
-namespace RazmE;
+namespace RazmW;
 
 use Elementor\Controls_Manager;
-use Razm\RazmnixGetOptions;
+use RazmS\RazmnixSetting;
 
 
 class RazmnixLogo extends RazmnixBaseWidget
@@ -33,7 +33,7 @@ class RazmnixLogo extends RazmnixBaseWidget
 
         $this->start_section(self::DARK , 'Dark Mode');
 
-        $this->addImg(self::DARK . 'IMG', 'Choose Image', RazmnixGetOptions::$headerLogoUrlDark);
+        $this->addImg(self::DARK . 'IMG', 'Choose Image', RazmnixSetting::$headerLogoUrlDark);
 
         $this->end_controls_section();
     }
@@ -43,7 +43,7 @@ class RazmnixLogo extends RazmnixBaseWidget
 
         $this->start_section(self::LIGHT , 'LIGHT Mode');
 
-        $this->addImg(self::LIGHT . 'IMG', 'Choose Image', RazmnixGetOptions::$headerLogoUrl);
+        $this->addImg(self::LIGHT . 'IMG', 'Choose Image', RazmnixSetting::$headerLogoUrl);
 
         $this->end_controls_section();
     }
@@ -57,10 +57,10 @@ class RazmnixLogo extends RazmnixBaseWidget
         <a href = "<?= esc_url($settings[ 'RazmnixLogoHref' ]) ?>">
             <img class = "hidden dark:inline-block darkLogo"
                  src = "<?= esc_url($settings[ 'RazmnixLogoDarkModeIMG' ]['url']) ?>"
-                 alt = "<?= esc_attr(get_bloginfo('name')); ?>">
+                 alt = "<?= esc_attr(get_bloginfo('name')) ?>">
             <img class = "dark:hidden lightLogo"
                  src = "<?= esc_url($settings[ 'RazmnixLogoLightModeIMG' ]['url']) ?>"
-                 alt = "<?= esc_attr(get_bloginfo('name')); ?>">
+                 alt = "<?= esc_attr(get_bloginfo('name')) ?>">
         </a>
 
 

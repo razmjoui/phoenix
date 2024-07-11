@@ -1,8 +1,8 @@
 <?php
 
-namespace Razm;
+namespace RazmS;
 
-class RazmnixOptionsTypography {
+class RazmnixSettingsTypography {
 	public function getTypography(): array {
 		return
 			[
@@ -15,7 +15,7 @@ class RazmnixOptionsTypography {
 	'chosen'   => true,
 	'multiple' => true,
 	'ajax'     => true,
-	'options'  => RazmnixOptions::$fonts,
+	'options'  => RazmnixSettings::$fonts,
 	'default'  => 'iransans'
 ],
 // Typography Body
@@ -25,7 +25,7 @@ class RazmnixOptionsTypography {
 	'title'   => esc_html__( 'Original Font', 'razmnix' ),
 	'help'    => esc_html__( 'Choose a font name for the main content font on all pages.', 'razmnix' ),
 	'chosen'  => true,
-	'options' => RazmnixOptions::$fonts,
+	'options' => RazmnixSettings::$fonts,
 	'ajax'    => true,
 	'default' => 'iransans'
 ],
@@ -36,7 +36,7 @@ class RazmnixOptionsTypography {
 	'title'   => esc_html__( 'Titles font (H1, H1, H2, H3, H4, H5, H6)', 'razmnix' ),
 	'help'    => esc_html__( 'Just select the required fonts. It is recommended that 1 font and maximum 2 fonts be active.', 'razmnix' ),
 	'chosen'  => true,
-	'options' => RazmnixOptions::$fonts,
+	'options' => RazmnixSettings::$fonts,
 	'ajax'    => true,
 	'default' => 'iransans'
 ],
@@ -47,7 +47,7 @@ class RazmnixOptionsTypography {
 	'title'   => esc_html__( 'Paragraph font', 'razmnix' ),
 	'help'    => esc_html__( 'Select the font name for the paragraph font for all pages.', 'razmnix' ),
 	'chosen'  => true,
-	'options' => RazmnixOptions::$fonts,
+	'options' => RazmnixSettings::$fonts,
 	'ajax'    => true,
 	'default' => 'iransans'
 ],
