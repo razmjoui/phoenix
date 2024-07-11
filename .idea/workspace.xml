@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="1.0.0.3">
-      <change beforePath="$PROJECT_DIR$/components/menu/menuRoocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/menu/menuRoocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/side/roocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/side/roocket.php" afterDir="false" />
+    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="1.0.0.4">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +241,7 @@
       <workItem from="1720619789708" duration="1650000" />
       <workItem from="1720624062291" duration="4216000" />
       <workItem from="1720630054206" duration="1670000" />
-      <workItem from="1720684936239" duration="1466000" />
+      <workItem from="1720684936239" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0.2">
       <option name="closed" value="true" />
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720686202438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.0.0.4">
+      <option name="closed" value="true" />
+      <created>1720686492150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720686492150</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +293,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0.0.2" />
     <MESSAGE value="1.0.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.3" />
+    <MESSAGE value="1.0.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.4" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\razm\Local Sites\wpdev\app\wp</wordpressPath>
