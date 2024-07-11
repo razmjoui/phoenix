@@ -4,6 +4,7 @@ $subMenuWidth = '';
 $subMenuCol   = '';
 $iconType     = '';
 $iconName     = '';
+if (is_array($mainMenus) && !empty($mainMenus)):
 foreach ( $mainMenus as $mainMenu ):
 	if ( $mainMenu['SubMenuO'] ) {
 		switch ( $mainMenu['SubMenuStyle'] ) {
@@ -106,5 +107,5 @@ foreach ( $mainMenus as $mainMenu ):
 			<?php endif; ?>
 		<?php endif; ?>
     </li>
-<?php endforeach; ?>
+<?php endforeach; endif; ?>
 

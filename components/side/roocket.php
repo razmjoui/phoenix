@@ -57,10 +57,10 @@
         <ul class = "relative flex flex-col items-start justify-center w-full px-6  gap-y-2">
 
 			<?php
-			$sideMenus = get_option( 'razmnix_settings' )['sideMenus'] ?? [];
+			$Menus = get_option( 'razmnix_settings' )['sideMenus'] ?? [];
 			$iconType  = '';
 			$iconName  = '';
-			if (is_array($sideMenus) && !empty($sideMenus)):
+			if (is_array($Menus) && !empty($Menus)):
 			foreach ( $Menus as $Menu ):
 				if ( $Menu['MenuIcon'] ) {
 					switch ( $Menu['MenuIconBase'] ) {

@@ -4,65 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="1.0.0.2">
-      <change afterPath="$PROJECT_DIR$/assets/js/elementor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/menu/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phoenix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phoenix.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/phoenix/academyCircle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/phoenix/academyCircle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixControllerClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixControllerClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixEnqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/RazmnixEnqueue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixGetOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSetting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsColor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsColor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsConnections.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsConnections.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsElementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsElementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsExtensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsExtensions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsFooterFields.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsFooterFields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderFields.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderFields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderLogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderLogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsHeaderType.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsHeaderType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsMainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsMainMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsOther.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsOther.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsSideMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsSideMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsTypography.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsTypography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixOptionsUserMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/settings/RazmnixSettingsUserMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/RazmnixPostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementorPostType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixBaseWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixBaseWidget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixBtn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixCart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixElementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/RazmnixElementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixLogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixLogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixMenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixThemesMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixThemesMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/elementor/RazmnixUserBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget/RazmnixUserBtn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/widget-btn.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/elementor/widget-btn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/btnUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/btnUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/loginBtn.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/loginBtn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logo/logo.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo/logo.php" afterDir="false" />
+    <list default="true" id="6d8d63ae-ecdb-41a6-ac46-c19b14844c3c" name="Changes" comment="1.0.0.3">
       <change beforePath="$PROJECT_DIR$/components/menu/menuRoocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/menu/menuRoocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modal/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/modal/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/other/overlayShow.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/other/overlayShow.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/search/searchRoocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/searchRoocket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/side/roocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/side/roocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/elementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer/footers.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer/footers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/elementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header/headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/headers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header/roocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header/roocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +242,7 @@
       <workItem from="1720619789708" duration="1650000" />
       <workItem from="1720624062291" duration="4216000" />
       <workItem from="1720630054206" duration="1670000" />
-      <workItem from="1720684936239" duration="1152000" />
+      <workItem from="1720684936239" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0.2">
       <option name="closed" value="true" />
@@ -308,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720447456610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0.0.3">
+      <option name="closed" value="true" />
+      <created>1720686202438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720686202438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +285,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.2" />
+    <MESSAGE value="1.0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.3" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\razm\Local Sites\wpdev\app\wp</wordpressPath>
