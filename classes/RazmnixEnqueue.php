@@ -6,7 +6,8 @@ namespace Razm;
 use RazmS\RazmnixSetting;
 
 class RazmnixEnqueue {
-	private function enqueue_styles() {
+	private function enqueue_styles(): void
+    {
 		//fonts
 		if ( RazmnixSetting::$options['fontsActive'] && is_array( RazmnixSetting::$options['fontsActive'] ) ) {
 			foreach ( RazmnixSetting::$options['fontsActive'] as $font ) {
@@ -36,7 +37,8 @@ class RazmnixEnqueue {
 		);
 	}
 
-	private function enqueue_scripts() {
+	private function enqueue_scripts(): void
+    {
 		//alpine.js
 		wp_enqueue_script(
 			'alpine',
@@ -54,15 +56,6 @@ class RazmnixEnqueue {
 			defined( WP_DEBUG ) && WP_DEBUG ? time() : RAZMNIX_VER,
 			false
 		);
-		/*if ( \Elementor\Plugin::$instance->editor->is_edit_mode() ) {
-			wp_enqueue_script(
-				'razmnix-elementor',
-				RAZMNIX_SCRIPTS . 'elementor.js',
-				null,
-				defined( WP_DEBUG ) && WP_DEBUG ? time() : RAZMNIX_VER,
-				false
-			);
-		}*/
 	}
 
 
@@ -70,7 +63,8 @@ class RazmnixEnqueue {
 		add_action( 'wp_enqueue_scripts', [ $this, 'razmnix_enqueue' ] );
 	}
 
-	public function razmnix_enqueue() {
+	public function razmnix_enqueue(): void
+    {
 		$this->enqueue_styles();
 		$this->enqueue_scripts();
 	}

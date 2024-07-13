@@ -8,27 +8,27 @@ use RazmS\RazmnixSetting;
 
 class RazmnixLogo extends RazmnixBaseWidget
 {
-    const NAME     = self::CONST . 'Logo';
-    const DARK     = self::NAME . 'DarkMode';
-    const LIGHT    = self::NAME . 'LightMode';
-    const SECTIONS = [self::NAME , self::DARK , self::LIGHT];
-    const TITLE    = 'Logo';
-    const ICON     = 'eicon-logo';
+    public const NAME     = self::CONST . 'Logo';
+    public const DARK     = self::NAME . 'DarkMode';
+    public const LIGHT    = self::NAME . 'LightMode';
+    public const SECTIONS = [self::NAME , self::DARK , self::LIGHT];
+    public const TITLE    = 'Logo';
+    public const ICON     = 'eicon-logo';
 
 
-    protected function RazmnixLogo():void
+    protected function razmnixLogo():void
     {
 
         $this->start_section(self::NAME , 'General');
 
         $this->addText(self::NAME . 'Href' , 'Link' , home_url());
 
-        $this->addControl(Controls_Manager::NUMBER , self::NAME . 'width' , 'Width' , 'img' , 'width' , 208 , 160 , 96 , 'px');
+        $this->addControl(Controls_Manager::NUMBER , self::NAME . 'width' , 'Width' , 'img' , 'width' , 'px');
 
         $this->end_controls_section();
     }
 
-    protected function RazmnixLogoDarkMode():void
+    protected function razmnixLogoDarkMode():void
     {
 
         $this->start_section(self::DARK , 'Dark Mode');
@@ -38,7 +38,7 @@ class RazmnixLogo extends RazmnixBaseWidget
         $this->end_controls_section();
     }
 
-    protected function RazmnixLogoLightMode()
+    protected function razmnixLogoLightMode()
     {
 
         $this->start_section(self::LIGHT , 'LIGHT Mode');

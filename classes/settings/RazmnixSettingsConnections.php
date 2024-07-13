@@ -19,24 +19,7 @@ class RazmnixSettingsConnections {
 						],
 
 					],
-					'default' => [
-						[
-							'connection' => 'sideMenu',
-						],
-						[
-							'connection' => 'overlayShow',
-						],
-						[
-							'connection' => 'modalLogin',
-						],
-						[
-							'connection' => 'userDropDown',
-						],
-						[
-							'connection' => 'isDarkness',
-						],
 
-					]
 				],
 			];
 	}

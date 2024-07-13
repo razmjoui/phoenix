@@ -28,7 +28,7 @@ function includeFiles() {
 function razmnixIcon( $folder_name, $svg_filename ): string {
 	$file_path = RAZMNIX_SVG . "{$folder_name}/{$svg_filename}.svg";
 	if ( ! file_exists( $file_path ) ) {
-		return "Not found";
+		return "";
 	}
 	$svg_code = file_get_contents( $file_path );
 

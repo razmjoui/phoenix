@@ -28,9 +28,3 @@ theme.updateThemeOnLoad();
 
 
 
-let elementorElements = document.querySelectorAll('.elementor-element');
-elementorElements.forEach(function(element) {
-    element.setAttribute(':class', "isDarkness ? 'razmnixDark' : 'razmnixLight'")
-});
-
-

@@ -7,11 +7,11 @@ class RazmnixDefaultWidget {
 	public function __construct() {
 		// Add Class to All Widget
 		add_action( 'elementor/frontend/before_render', [ $this, 'addClass' ], 10, 1 );
-		add_action( 'elementor/frontend/after_enqueue_styles', function () {
+		/*add_action( 'elementor/frontend/after_enqueue_styles', function () {
 			if ( \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
 				add_action( 'elementor/frontend/widget/before_render', [ $this, 'addClass' ], 10, 1 );
 			}
-		} );
+		} );*/
 
 		// Add Controls to Container Widget
 		add_action( 'elementor/element/container/section_background/before_section_start', [ $this, 'customControls' ], 10, 2 );

@@ -2,7 +2,15 @@
 
 use RazmS\RazmnixSetting;
 
-$connections = [];
+$connections = [
+        "isDarkness: localStorage.getItem('color-theme') === 'dark' ? true : false",
+        "sideMenu: false",
+        "overlayShow: false",
+        "modalLogin: false",
+        "userDropDown: false",
+
+
+];
 if ( isset( get_option( 'razmnix_settings' )['Connections'] ) && ! empty( get_option( 'razmnix_settings' )['Connections'] ) ) {
 	foreach ( get_option( 'razmnix_settings' )['Connections'] as $value ) {
 		foreach ( $value as $connection ) {
